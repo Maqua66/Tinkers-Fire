@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "  D",
+    "DD "
+  ],
+  "key": {
+    "D": {
+      "item": "unifyall:silver_block"
+    }
+  },
+  "result": {
+    "item": "iceandfire:dragonarmor_silver_tail"
+  }
+}

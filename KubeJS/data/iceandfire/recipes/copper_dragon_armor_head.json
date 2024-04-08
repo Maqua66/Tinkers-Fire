@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " DD",
+    "DDD"
+  ],
+  "key": {
+    "D": {
+      "item": "tconstruct:copper_block"
+    }
+  },
+  "result": {
+    "item": "iceandfire:dragonarmor_copper_head"
+  }
+}
