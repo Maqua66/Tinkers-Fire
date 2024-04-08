@@ -1,0 +1,12 @@
+{
+	id: "59056FB114AE1C0D"
+	order_index: 2
+	title: "choice"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:obsidian" }
+		{ item: "minecraft:blaze_rod" }
+		{ item: "minecraft:ender_pearl" }
+		{ item: "kubejs:compressed_slime_block" }
+	]
+}

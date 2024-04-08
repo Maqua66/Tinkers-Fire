@@ -1,0 +1,45 @@
+{
+	id: "3D955691FFC7BC76"
+	order_index: 1
+	title: "Rare"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "defense"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "upgrades"
+				}
+			}
+		}
+		{ item: "tinkersarchery:cobalt_tantalum_ingot" }
+		{ item: "minecraft:diamond_block" }
+		{ item: "ironchest:crystal_chest" }
+		{ item: "kubejs:double_compressed_obsidian" }
+		{ item: "kubejs:universal_original_ore" }
+		{
+			xp_levels: 25
+			type: "xp_levels"
+		}
+		{ item: "tconstruct:blazing_blood_bucket" }
+		{
+			item: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "abilities"
+				}
+			}
+		}
+	]
+}

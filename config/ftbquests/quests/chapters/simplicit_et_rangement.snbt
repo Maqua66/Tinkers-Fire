@@ -1,0 +1,537 @@
+{
+	id: "0EC84AD02A8CF934"
+	group: ""
+	order_index: 2
+	filename: "simplicit_et_rangement"
+	title: "Simplicité et Rangement"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -0.5d
+			id: "1E5E97CB4F71F662"
+			tasks: [{
+				id: "35ACE5B08E95124F"
+				type: "item"
+				item: "trashcans:item_trash_can"
+			}]
+			rewards: [
+				{
+					id: "7BC7A3B8302BDF42"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "5597C0C9B126AF24"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "70C45874F5854771"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			id: "3ABE89B34EED52EC"
+			tasks: [{
+				id: "08294BBC4362B9F6"
+				type: "item"
+				item: "enderstorage:ender_chest"
+			}]
+			rewards: [
+				{
+					id: "6930FBFB490DA671"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "6378A27530A9C501"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "0101F89D2054A18F"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			id: "72756C58904D8E47"
+			tasks: [{
+				id: "14E26603E2035BA8"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_1"
+			}]
+			rewards: [
+				{
+					id: "31C9AF56496072B8"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "7DD1F4DF88141371"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "338D9D22FCBDF6D6"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			dependencies: ["72756C58904D8E47"]
+			id: "70B62A841533DD57"
+			tasks: [{
+				id: "5B607152E9F72D4F"
+				type: "item"
+				item: "storagedrawers:compacting_drawers_3"
+			}]
+			rewards: [
+				{
+					id: "3E0CD6C1800438D8"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "304E65A5A98848EF"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "1B8F1BDD6F4A1600"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			dependencies: ["72756C58904D8E47"]
+			id: "36EA0DF5EC07243E"
+			tasks: [{
+				id: "35F3983C6B973BFA"
+				type: "item"
+				item: "storagedrawers:upgrade_template"
+			}]
+			rewards: [
+				{
+					id: "732B97AA471A0110"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "3F52C629F0FBD0FF"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "1A79FDF99679A927"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["72756C58904D8E47"]
+			id: "08D3B5EFCD5906E8"
+			tasks: [{
+				id: "0FA5E65EA541BC25"
+				type: "item"
+				item: "storagedrawers:drawer_key"
+			}]
+			rewards: [
+				{
+					id: "4EA54542D06D94AE"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "2CCB1DCDF5441A6B"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "3C8D4666189B674F"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			dependencies: ["36EA0DF5EC07243E"]
+			id: "77F46C7C23F4FDB8"
+			tasks: [{
+				id: "2012CDF4E481C277"
+				type: "item"
+				item: "storagedrawers:obsidian_storage_upgrade"
+			}]
+			rewards: [
+				{
+					id: "107719829BEAB490"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "13D3C4F72D6A5453"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "45986DED6B4D6185"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			dependencies: ["36EA0DF5EC07243E"]
+			id: "5B56BE4FF65588F6"
+			tasks: [{
+				id: "10639EE1926D475E"
+				type: "item"
+				item: "storagedrawers:redstone_upgrade"
+			}]
+			rewards: [
+				{
+					id: "464820C58A4FF462"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "78D84EF35439BAF9"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "6A6FEF54C24D4325"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			dependencies: ["77F46C7C23F4FDB8"]
+			id: "2285C4422D5A58F2"
+			tasks: [{
+				id: "0523A074BFBCDB46"
+				type: "item"
+				item: "storagedrawers:iron_storage_upgrade"
+			}]
+			rewards: [
+				{
+					id: "20A629C124D06B0B"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "7A907D040DBB671C"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "35214345DFB10681"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -5.0d
+			dependencies: ["2285C4422D5A58F2"]
+			id: "294AAD81FD7E1188"
+			tasks: [{
+				id: "317FD77BAC9BC24C"
+				type: "item"
+				item: "storagedrawers:gold_storage_upgrade"
+			}]
+			rewards: [
+				{
+					id: "4D9DF9425F6EB4F0"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "7A7BEF359E1C53EB"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "6D0478507A0C540C"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -6.0d
+			dependencies: ["294AAD81FD7E1188"]
+			id: "43DF319A87093A76"
+			tasks: [{
+				id: "5A4BD844FDCF6323"
+				type: "item"
+				item: "storagedrawers:diamond_storage_upgrade"
+			}]
+			rewards: [
+				{
+					id: "1C832F2FE2D5DCEC"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "7A3A2F4422E26A8E"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "3B599E323929B004"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "35FE750D3E74ECBF"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -7.0d
+			dependencies: ["43DF319A87093A76"]
+			id: "7E1C59D7FE4F97A2"
+			tasks: [{
+				id: "2D74F316422A6BD2"
+				type: "item"
+				item: "storagedrawers:emerald_storage_upgrade"
+			}]
+			rewards: [
+				{
+					id: "1A3A5630A27C2A0A"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "61D417DCE662D4AE"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "099942C9E05A5CC1"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "3839825411C79ADF"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			id: "6CE8CBAA0A9F9567"
+			tasks: [{
+				id: "7CE6A71E9081ABA2"
+				type: "item"
+				item: "ironchest:iron_chest"
+			}]
+			rewards: [
+				{
+					id: "275ACEAEBAB2A8FA"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "753B7F2CD77C7189"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "7AD34FC7E3BD8ECC"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			id: "574395E28823F63F"
+			tasks: [{
+				id: "461A9C7D4D0C5652"
+				type: "item"
+				item: "ironchest:dirt_chest"
+			}]
+			rewards: [
+				{
+					id: "26EA48E707A20910"
+					type: "item"
+					item: "kubejs:double_compressed_dirt"
+				}
+				{
+					id: "2F26B4B1F09B22C9"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "0ADE2AB8D25B315A"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "2270B61428D16A25"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			dependencies: ["6CE8CBAA0A9F9567"]
+			dependency_requirement: "one_completed"
+			id: "58C37A06076853F6"
+			tasks: [{
+				id: "05597EBBD52A3662"
+				type: "item"
+				item: "ironchest:gold_chest"
+			}]
+			rewards: [
+				{
+					id: "4A18539F02F5EF0E"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "5066AAEAF4B073BF"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "0613F1526FDEA914"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			dependencies: ["58C37A06076853F6"]
+			dependency_requirement: "one_completed"
+			id: "3E818F97B12BEC0E"
+			tasks: [{
+				id: "28CFB835E0CD9A86"
+				type: "item"
+				item: "ironchest:diamond_chest"
+			}]
+			rewards: [
+				{
+					id: "687414B2877CA1E9"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "1947272D9398A9D8"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "087FC908A232964A"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 4.5d
+			dependencies: ["3E818F97B12BEC0E"]
+			id: "23A698AA4C0E2A87"
+			tasks: [{
+				id: "4D61EC172255BCF8"
+				type: "item"
+				item: "ironchest:crystal_chest"
+			}]
+			rewards: [
+				{
+					id: "0C83D134D32F0D13"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "7A9B65DD3D68C29B"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "03A283BBE86BE479"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "232F3F5B3A45C320"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 4.5d
+			dependencies: ["3E818F97B12BEC0E"]
+			id: "75767D81252CA019"
+			tasks: [{
+				id: "12552966460F3F5D"
+				type: "item"
+				item: "ironchest:obsidian_chest"
+			}]
+			rewards: [
+				{
+					id: "6AA3E67C4678AE1A"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "20C89534D1CB8302"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "10814DD7CD02441E"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "1D1623AB5BDD34BD"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+			]
+		}
+	]
+}

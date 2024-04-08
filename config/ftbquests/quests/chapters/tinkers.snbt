@@ -1,0 +1,1231 @@
+{
+	id: "4427343EE4072EF7"
+	group: ""
+	order_index: 0
+	filename: "tinkers"
+	title: "Tinkers'"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 2.5d
+			y: -2.0d
+			dependencies: [
+				"31BD822E760935CA"
+				"48A715FBC71621A8"
+				"111781ECB8077F7A"
+			]
+			hide: true
+			id: "6E80CCC72381B106"
+			tasks: [{
+				id: "3D2AE282EB2928D1"
+				type: "item"
+				item: "tconstruct:grout"
+				count: 16L
+				consume_items: true
+				only_from_crafting: true
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "5AFE14051ECB2E43"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 9
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			dependencies: ["6E80CCC72381B106"]
+			hide: true
+			id: "70F2C536403D04C0"
+			tasks: [{
+				id: "5FBD7FF76C304053"
+				type: "item"
+				item: "tconstruct:seared_brick"
+				count: 32L
+			}]
+			rewards: [{
+				id: "0D056A121E50C3EF"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			dependencies: ["3DC48964E571859A"]
+			id: "57DF4B3F31024729"
+			tasks: [{
+				id: "769FD58512E04CC3"
+				type: "item"
+				item: "tconstruct:seared_bricks"
+				count: 16L
+			}]
+			rewards: [{
+				id: "3E9C5B77AFA59508"
+				type: "item"
+				item: "minecraft:gravel"
+				count: 64
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.0d
+			dependencies: ["57DF4B3F31024729"]
+			id: "7680CFDE214819D2"
+			tasks: [{
+				id: "6F7053B239020718"
+				type: "item"
+				item: "tconstruct:seared_melter"
+			}]
+			rewards: [{
+				id: "0A67EC50EEA24099"
+				type: "item"
+				item: "ironchest:wood_to_iron_chest_upgrade"
+				count: 5
+			}]
+		}
+		{
+			x: 7.0d
+			y: -2.0d
+			dependencies: ["57DF4B3F31024729"]
+			id: "6FA4BB4AA2FE7861"
+			tasks: [{
+				id: "28C61C616728627F"
+				type: "item"
+				item: "tconstruct:seared_heater"
+			}]
+			rewards: [{
+				id: "4693B02A5883DBDA"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 64
+			}]
+		}
+		{
+			x: 7.0d
+			y: -3.0d
+			dependencies: ["57DF4B3F31024729"]
+			id: "0A89E87C463A7EB6"
+			tasks: [{
+				id: "6BC58B382994B23F"
+				type: "item"
+				item: "tconstruct:seared_basin"
+			}]
+			rewards: [{
+				id: "27A5910DE0B7BEE1"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			dependencies: ["57DF4B3F31024729"]
+			id: "25271C14856D51A4"
+			tasks: [{
+				id: "45B4DB74DAE6C418"
+				type: "item"
+				item: "tconstruct:seared_table"
+			}]
+			rewards: [{
+				id: "6BCBEAEF1BD5018E"
+				type: "item"
+				item: "kubejs:double_compressed_cobblestone"
+				count: 5
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			id: "31BD822E760935CA"
+			tasks: [{
+				id: "7F17541DB4D5C558"
+				type: "item"
+				item: {
+					id: "tconstruct:crafting_station"
+					Count: 1b
+					tag: {
+						texture: "minecraft:oak_log"
+					}
+				}
+			}]
+			rewards: [{
+				id: "055788835B285467"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			id: "48A715FBC71621A8"
+			tasks: [{
+				id: "537C2824B12DC213"
+				type: "item"
+				item: {
+					id: "tconstruct:part_builder"
+					Count: 1b
+					tag: {
+						texture: "minecraft:oak_planks"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1D24C9AA56C14805"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			id: "111781ECB8077F7A"
+			tasks: [{
+				id: "0D43DB59B0B7BDAA"
+				type: "item"
+				item: {
+					id: "tconstruct:tinker_station"
+					Count: 1b
+					tag: {
+						texture: "minecraft:oak_planks"
+					}
+				}
+			}]
+			rewards: [{
+				id: "5D374018F027FDE8"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			dependencies: ["70F2C536403D04C0"]
+			id: "3DC48964E571859A"
+			tasks: [{
+				id: "215E1F272939746C"
+				type: "item"
+				item: "tconstruct:puny_smelting"
+			}]
+			rewards: [{
+				id: "098F36A8A7C75463"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 7.0d
+			y: -4.0d
+			dependencies: ["57DF4B3F31024729"]
+			id: "45E64D58F2EF7357"
+			tasks: [{
+				id: "026F7671357CBB5E"
+				type: "item"
+				item: "tconstruct:seared_faucet"
+			}]
+			rewards: [{
+				id: "39D037466A01DDDA"
+				type: "item"
+				item: "minecraft:slime_ball"
+				count: 16
+			}]
+		}
+		{
+			x: 11.0d
+			y: -2.0d
+			dependencies: ["7438836B4CEA91A4"]
+			id: "7CA8A315BB4EE154"
+			tasks: [{
+				id: "3CA5668610A40187"
+				type: "item"
+				item: {
+					id: "tconstruct:pickaxe"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:mining_speed": 6.0f
+							"tconstruct:attack_damage": 2.0f
+							"tconstruct:harvest_level": 2.0f
+							"tconstruct:durability": 287.5f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [
+							{
+								name: "tconstruct:overslime"
+								level: 1s
+							}
+							{
+								name: "tconstruct:cultivated"
+								level: 1s
+							}
+							{
+								name: "tconstruct:overgrowth"
+								level: 1s
+							}
+							{
+								name: "tconstruct:piercing"
+								level: 1s
+							}
+							{
+								name: "tconstruct:sturdy"
+								level: 1s
+							}
+						]
+						tic_materials: [
+							"tconstruct:iron"
+							"tconstruct:wood"
+							"tconstruct:slimewood"
+						]
+						Damage: 0
+						tic_volatile_data: {
+							"tconstruct:overslime_cap": 50
+							"tconstruct:overslime_friend": 1b
+						}
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 3
+							"tconstruct:overslime": 18
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0890540813F6B144"
+				type: "item"
+				item: "ironchest:iron_to_gold_chest_upgrade"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -2.0d
+			dependencies: ["0F7E6C44AA3FEA22"]
+			id: "7556C32CD8717B8A"
+			tasks: [{
+				id: "379C1778ED1C40B5"
+				type: "item"
+				item: "tconstruct:pickaxe_head_sand_cast"
+			}]
+			rewards: [{
+				id: "3386A7562462B2FA"
+				type: "item"
+				item: "tconstruct:pickaxe_head_cast"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -2.0d
+			dependencies: ["7556C32CD8717B8A"]
+			id: "7438836B4CEA91A4"
+			tasks: [{
+				id: "7D6D3CA4B4CE4378"
+				type: "item"
+				item: {
+					id: "tconstruct:pickaxe_head"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:iron"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2F14AC6084FAA350"
+				type: "item"
+				item: "farmersdelight:potato_crate"
+				count: 5
+			}]
+		}
+		{
+			x: 12.5d
+			y: -3.0d
+			dependencies: ["7CA8A315BB4EE154"]
+			id: "5346304C39EEC9D9"
+			tasks: [{
+				id: "176EE1B589621AF5"
+				type: "item"
+				item: "tconstruct:seared_fuel_tank"
+			}]
+			rewards: [{
+				id: "4AD538E859F56309"
+				type: "item"
+				item: "minecraft:lava_bucket"
+				count: 5
+			}]
+		}
+		{
+			x: 12.5d
+			y: -2.0d
+			dependencies: ["7CA8A315BB4EE154"]
+			id: "7DCDF48F857871E8"
+			tasks: [{
+				id: "033BCA04DD86327C"
+				type: "item"
+				item: "tconstruct:smeltery_controller"
+			}]
+			rewards: [{
+				id: "3C3AE6984980B20C"
+				type: "item"
+				item: "minecraft:blast_furnace"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.0d
+			dependencies: [
+				"0A89E87C463A7EB6"
+				"6FA4BB4AA2FE7861"
+				"7680CFDE214819D2"
+				"25271C14856D51A4"
+				"45E64D58F2EF7357"
+			]
+			id: "0F7E6C44AA3FEA22"
+			tasks: [{
+				id: "06A147F0095EABDE"
+				type: "item"
+				item: {
+					id: "tconstruct:mighty_smelting"
+					Count: 1b
+					tag: {
+						mantle: {
+							book: {
+								current_page: "smeltery.seared_chute"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "43FB92165439DE7F"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_1"
+				count: 5
+			}]
+		}
+		{
+			x: 12.5d
+			y: -1.0d
+			dependencies: ["7CA8A315BB4EE154"]
+			dependency_requirement: "all_started"
+			id: "44676596721AFB2D"
+			tasks: [{
+				id: "0987AF35C06E1063"
+				type: "item"
+				item: "tconstruct:seared_drain"
+			}]
+			rewards: [{
+				id: "6C3F66EA66ABE74B"
+				type: "item"
+				item: {
+					id: "aquaculture:iron_fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: -2.0d
+			dependencies: [
+				"5346304C39EEC9D9"
+				"7DCDF48F857871E8"
+				"44676596721AFB2D"
+			]
+			dependency_requirement: "all_started"
+			id: "22B18CE6AE346CE3"
+			tasks: [{
+				id: "6DA9BDFE3949E028"
+				type: "item"
+				item: "tconstruct:tinkers_bronze_ingot"
+			}]
+			rewards: [{
+				id: "124240E1CEA77549"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -2.0d
+			dependencies: ["22B18CE6AE346CE3"]
+			id: "31F7E3865EAE4D42"
+			tasks: [{
+				id: "039797BBCDA8A409"
+				type: "item"
+				item: {
+					id: "tconstruct:tinkers_anvil"
+					Count: 1b
+					tag: {
+						texture: "tconstruct:tinkers_bronze_block"
+					}
+				}
+			}]
+			rewards: [{
+				id: "66129D4594F34C2E"
+				type: "item"
+				item: "mysticalagriculture:inferium_furnace"
+			}]
+		}
+		{
+			x: 15.5d
+			y: -3.0d
+			shape: "rsquare"
+			dependencies: ["31F7E3865EAE4D42"]
+			id: "795AD756089DE228"
+			tasks: [{
+				id: "20981E48F9F30320"
+				type: "advancement"
+				title: "skyslime island"
+				icon: "tconstruct:sky_slime"
+				advancement: "tconstruct:world/sky_island"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2C8BEA12AE016038"
+				type: "item"
+				item: "tconstruct:sky_slime_crystal"
+				count: 16
+			}]
+		}
+		{
+			x: 14.0d
+			y: -4.0d
+			dependencies: ["795AD756089DE228"]
+			id: "68F2538E5069A538"
+			tasks: [{
+				id: "0A6351C1208F3D7C"
+				type: "item"
+				item: {
+					id: "tconstruct:pickaxe_head"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:rose_gold"
+					}
+				}
+			}]
+			rewards: [{
+				id: "37450C97729F636A"
+				type: "item"
+				item: "farmersdelight:tomato_crate"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -4.0d
+			dependencies: ["795AD756089DE228"]
+			id: "4FC023BAE30E73ED"
+			tasks: [{
+				id: "23967BE5CB1239BD"
+				type: "item"
+				item: {
+					id: "tconstruct:broad_axe_head"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:slimesteel"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1E15DD7D887D6FC0"
+				type: "item"
+				item: "farmersdelight:onion_crate"
+			}]
+		}
+		{
+			x: 16.0d
+			y: -4.0d
+			dependencies: ["795AD756089DE228"]
+			id: "52BD0E730207BB55"
+			tasks: [{
+				id: "4A4BDBB9B70436B5"
+				type: "item"
+				item: {
+					id: "tconstruct:tool_binding"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:slimewood"
+					}
+				}
+			}]
+			rewards: [{
+				id: "0C1FDD702FD7EBD1"
+				type: "item"
+				item: "farmersdelight:cabbage_crate"
+			}]
+		}
+		{
+			x: 17.0d
+			y: -4.0d
+			dependencies: ["795AD756089DE228"]
+			id: "7B7C82EF26E4ABC8"
+			tasks: [{
+				id: "3D4D52B2D68348F9"
+				type: "item"
+				item: {
+					id: "tconstruct:tough_handle"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:wood"
+					}
+				}
+			}]
+			rewards: [{
+				id: "39CFCC9A67B2F900"
+				type: "item"
+				item: "farmersdelight:beetroot_crate"
+			}]
+		}
+		{
+			x: 15.5d
+			y: -6.0d
+			shape: "square"
+			description: [
+				"Craft"
+				"use modifiers"
+			]
+			dependencies: [
+				"3E1F122500AC7E5D"
+				"52F7A65A8BCCF600"
+				"2286AE8986419275"
+			]
+			id: "73F7E867D5E5C9EA"
+			tasks: [{
+				id: "44A1840DD57F46F6"
+				type: "item"
+				item: {
+					id: "tconstruct:broad_axe"
+					Count: 1b
+					tag: {
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.3f
+							"tconstruct:attack_damage": 1.5f
+							"tconstruct:durability": 4.25f
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 0.63f
+							"tconstruct:mining_speed": 4.0000005f
+							"tconstruct:attack_damage": 12.0f
+							"tconstruct:harvest_level": 3.0f
+							"tconstruct:durability": 7975.125f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [
+							{
+								name: "tconstruct:overslime"
+								level: 3s
+							}
+							{
+								name: "tconstruct:cultivated"
+								level: 1s
+							}
+							{
+								name: "tconstruct:diamond"
+								level: 1s
+							}
+							{
+								name: "tconstruct:emerald"
+								level: 1s
+							}
+							{
+								name: "tconstruct:haste"
+								level: 1s
+							}
+							{
+								name: "tconstruct:overgrowth"
+								level: 1s
+							}
+							{
+								name: "tconstruct:overcast"
+								level: 1s
+							}
+							{
+								name: "tconstruct:enhanced"
+								level: 1s
+							}
+							{
+								name: "tconstruct:axe_transform_hidden"
+								level: 1s
+							}
+							{
+								name: "tconstruct:two_handed"
+								level: 1s
+							}
+						]
+						tic_upgrades: [
+							{
+								name: "tconstruct:diamond"
+								level: 1s
+							}
+							{
+								name: "tconstruct:emerald"
+								level: 1s
+							}
+							{
+								name: "tconstruct:overslime"
+								level: 1s
+							}
+							{
+								name: "tconstruct:haste"
+								level: 1s
+							}
+						]
+						tic_materials: [
+							"tconstruct:slimesteel"
+							"tconstruct:wood"
+							"tconstruct:rose_gold"
+							"tconstruct:slimewood"
+						]
+						Damage: 0
+						tic_volatile_data: {
+							"tconstruct:rarity": 1
+							upgrades: 1
+							"tconstruct:overslime_cap": 355
+							"tconstruct:overslime_friend": 1b
+						}
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: -1
+							"tconstruct:overslime": 355
+							"tconstruct:haste": 45
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5BDDB9E488050E6D"
+				type: "item"
+				item: "enderstorage:ender_chest"
+			}]
+		}
+		{
+			x: 15.5d
+			y: -5.0d
+			dependencies: [
+				"68F2538E5069A538"
+				"4FC023BAE30E73ED"
+				"52BD0E730207BB55"
+				"7B7C82EF26E4ABC8"
+			]
+			id: "52F7A65A8BCCF600"
+			tasks: [{
+				id: "416CEA9DDA7DBA47"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+			rewards: [{
+				id: "341A2C6BCA0407EE"
+				type: "item"
+				item: {
+					id: "farmersdelight:skillet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 14.5d
+			y: -5.0d
+			dependencies: [
+				"68F2538E5069A538"
+				"4FC023BAE30E73ED"
+				"52BD0E730207BB55"
+				"7B7C82EF26E4ABC8"
+			]
+			id: "2286AE8986419275"
+			tasks: [{
+				id: "3171C4BCDEA941AA"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+			rewards: [{
+				id: "4B0B8D19CD6C324F"
+				type: "item"
+				item: "farmersdelight:stove"
+			}]
+		}
+		{
+			x: 16.5d
+			y: -5.0d
+			dependencies: [
+				"68F2538E5069A538"
+				"4FC023BAE30E73ED"
+				"52BD0E730207BB55"
+				"7B7C82EF26E4ABC8"
+			]
+			dependency_requirement: "one_completed"
+			id: "3E1F122500AC7E5D"
+			tasks: [{
+				id: "1E0EE3D24A7D6591"
+				type: "item"
+				item: "minecraft:redstone_block"
+			}]
+			rewards: [{
+				id: "4806D0E4FA511D14"
+				type: "item"
+				item: "farmersdelight:cooking_pot"
+			}]
+		}
+		{
+			x: 15.5d
+			y: -1.0d
+			dependencies: ["31F7E3865EAE4D42"]
+			id: "29B0725EAF5BED85"
+			tasks: [{
+				id: "725367AF9C8AE641"
+				type: "advancement"
+				advancement: "tconstruct:tools/tool_smith"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "5F0C49C4416DA6FA"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "4010707E1B8BF0A2"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "4BF5B524748F6800"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+				{
+					id: "02E365F615A966FB"
+					type: "item"
+					item: "minecraft:obsidian"
+				}
+				{
+					id: "1C4EF5F3416022DD"
+					type: "item"
+					item: "kubejs:original_ore"
+				}
+				{
+					id: "7F6F843BAD5137EA"
+					type: "item"
+					item: {
+						id: "waystones:warp_stone"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 13.5d
+			y: -7.0d
+			shape: "rsquare"
+			dependencies: ["73F7E867D5E5C9EA"]
+			hide: true
+			id: "09E86D8ED5F656B1"
+			tasks: [{
+				id: "1B93460040B759FE"
+				type: "advancement"
+				advancement: "tconstruct:smeltery/tool_forge"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0A21C4198358983B"
+				type: "item"
+				item: "kubejs:original_ore"
+				count: 16
+			}]
+		}
+		{
+			x: 20.0d
+			y: -8.5d
+			shape: "rsquare"
+			dependencies: ["274334F09E53F4D1"]
+			id: "3C9FB257C664009E"
+			tasks: [{
+				id: "4B409382FCEA61EC"
+				type: "advancement"
+				advancement: "tconstruct:tools/material_master"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "65AD5CC76B0A71C0"
+					type: "item"
+					item: "kubejs:universal_original_ore"
+					count: 64
+				}
+				{
+					id: "7BAD804487C351ED"
+					type: "item"
+					item: {
+						id: "tconstruct:creative_slot"
+						Count: 1b
+						tag: {
+							slot: "upgrades"
+						}
+					}
+					count: 8
+				}
+				{
+					id: "1F00999CC3434A28"
+					type: "item"
+					item: {
+						id: "tconstruct:creative_slot"
+						Count: 1b
+						tag: {
+							slot: "abilities"
+						}
+					}
+					count: 8
+				}
+			]
+		}
+		{
+			x: 14.5d
+			y: -7.5d
+			shape: "rsquare"
+			dependencies: ["73F7E867D5E5C9EA"]
+			hide: true
+			id: "6127C015DAF9D070"
+			tasks: [{
+				id: "78285B1B708169B7"
+				type: "advancement"
+				advancement: "tconstruct:tools/upgrade_slots"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "71FE96605CF508D4"
+				type: "item"
+				item: {
+					id: "tconstruct:creative_slot"
+					Count: 1b
+					tag: {
+						slot: "upgrades"
+					}
+				}
+			}]
+		}
+		{
+			x: 17.5d
+			y: -7.0d
+			shape: "pentagon"
+			dependencies: ["73F7E867D5E5C9EA"]
+			id: "274334F09E53F4D1"
+			tasks: [{
+				id: "05B5EF0DB49393FD"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [{
+				id: "2A1EB329D654033D"
+				type: "item"
+				item: {
+					id: "tconstruct:creative_slot"
+					Count: 1b
+					tag: {
+						slot: "defense"
+					}
+				}
+			}]
+		}
+		{
+			x: 17.5d
+			y: -9.0d
+			dependencies: ["38C14AD0D59AA534"]
+			dependency_requirement: "one_completed"
+			id: "05BED9F52CF7A40C"
+			tasks: [{
+				id: "7EB02FC32A299AD0"
+				type: "item"
+				item: "tconstruct:encyclopedia"
+			}]
+			rewards: [
+				{
+					id: "10891444F4B4E759"
+					type: "item"
+					item: {
+						id: "tconstruct:creative_slot"
+						Count: 1b
+						tag: {
+							slot: "upgrades"
+						}
+					}
+				}
+				{
+					id: "752B9FD06EFC453E"
+					type: "item"
+					item: "tconstruct:blazing_blood_bucket"
+				}
+			]
+		}
+		{
+			x: 17.5d
+			y: -8.0d
+			dependencies: ["274334F09E53F4D1"]
+			id: "38C14AD0D59AA534"
+			tasks: [{
+				id: "7A01DA717A15BED2"
+				type: "item"
+				item: {
+					id: "tconstruct:fantastic_foundry"
+					Count: 1b
+					tag: {
+						mantle: {
+							book: {
+								current_page: "armor.plate_leggings"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "08B5B3268880A22A"
+				type: "item"
+				item: "ironchest:gold_to_diamond_chest_upgrade"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 1.5d
+			dependencies: ["22B18CE6AE346CE3"]
+			id: "2B0B67BE6D6A1571"
+			tasks: [{
+				id: "47EED5AEF2FE5C84"
+				type: "item"
+				item: "unifyall:brass_ingot"
+			}]
+			rewards: [{
+				id: "0BF2455D6070013B"
+				type: "random"
+				table_id: 6928406433644175116L
+			}]
+		}
+		{
+			x: 11.5d
+			y: 1.5d
+			dependencies: ["22B18CE6AE346CE3"]
+			id: "42DC364BEDEDB574"
+			tasks: [{
+				id: "35A00570704D1FEA"
+				type: "item"
+				item: "unifyall:bronze_ingot"
+			}]
+			rewards: [{
+				id: "338D90D2CB3F1D63"
+				type: "random"
+				table_id: 6928406433644175116L
+			}]
+		}
+		{
+			x: 13.5d
+			y: 1.5d
+			dependencies: ["22B18CE6AE346CE3"]
+			id: "4CB9169F6267C7FA"
+			tasks: [{
+				id: "1EE4B81BB2A5F39D"
+				type: "item"
+				item: "unifyall:electrum_ingot"
+			}]
+			rewards: [{
+				id: "75516B0E18208E17"
+				type: "random"
+				table_id: 6928406433644175116L
+			}]
+		}
+		{
+			x: 24.5d
+			y: -7.0d
+			dependencies: [
+				"274334F09E53F4D1"
+				"75BD46C2C542A055"
+			]
+			id: "4C38985E641BB204"
+			tasks: [{
+				id: "7467F440FF69F9AD"
+				type: "item"
+				item: "tconstruct:hepatizon_ingot"
+			}]
+			rewards: [{
+				id: "3919469C731330FD"
+				type: "random"
+				table_id: 4437548192905018486L
+			}]
+		}
+		{
+			x: 15.5d
+			y: 1.5d
+			dependencies: ["22B18CE6AE346CE3"]
+			id: "77F06F11ED5F36EA"
+			tasks: [{
+				id: "229E725956D3B036"
+				type: "item"
+				item: "unifyall:invar_ingot"
+			}]
+			rewards: [{
+				id: "549E8D5400B595FF"
+				type: "random"
+				table_id: 6928406433644175116L
+			}]
+		}
+		{
+			x: 22.5d
+			y: -7.0d
+			dependencies: [
+				"274334F09E53F4D1"
+				"75BD46C2C542A055"
+			]
+			id: "2F45C9A22F1FEBE7"
+			tasks: [{
+				id: "17062A9DD25C026D"
+				type: "item"
+				item: "tconstruct:manyullyn_ingot"
+			}]
+			rewards: [{
+				id: "196C5F2F5DEB53F8"
+				type: "random"
+				table_id: 4437548192905018486L
+			}]
+		}
+		{
+			x: 12.5d
+			y: 1.5d
+			dependencies: ["22B18CE6AE346CE3"]
+			id: "7468349639805001"
+			tasks: [{
+				id: "7DEB90662B38E3CC"
+				type: "item"
+				item: "tconstruct:pig_iron_ingot"
+			}]
+			rewards: [{
+				id: "5DD7458E2648B35B"
+				type: "random"
+				table_id: 6928406433644175116L
+			}]
+		}
+		{
+			x: 19.5d
+			y: -7.0d
+			dependencies: [
+				"274334F09E53F4D1"
+				"75BD46C2C542A055"
+			]
+			id: "3441FB9EB27E29DB"
+			tasks: [{
+				id: "23B1CC45539934C2"
+				type: "item"
+				item: "tconstruct:queens_slime_ingot"
+			}]
+			rewards: [{
+				id: "0705E376CB9AA035"
+				type: "random"
+				table_id: 4437548192905018486L
+			}]
+		}
+		{
+			x: 16.5d
+			y: 1.5d
+			dependencies: ["22B18CE6AE346CE3"]
+			id: "3B11A4EEC7B837F5"
+			tasks: [{
+				id: "1A50526A6F497080"
+				type: "item"
+				item: "tconstruct:rose_gold_ingot"
+			}]
+			rewards: [{
+				id: "4FCF53B6330DA406"
+				type: "random"
+				table_id: 6928406433644175116L
+			}]
+		}
+		{
+			x: 14.5d
+			y: 1.5d
+			dependencies: ["22B18CE6AE346CE3"]
+			id: "327D9E7C6341AE4C"
+			tasks: [{
+				id: "5B87517C7D72590F"
+				type: "item"
+				item: "tconstruct:slimesteel_ingot"
+			}]
+			rewards: [{
+				id: "5BDFD85A06AF4D20"
+				type: "random"
+				table_id: 6928406433644175116L
+			}]
+		}
+		{
+			x: 21.5d
+			y: -7.0d
+			dependencies: ["274334F09E53F4D1"]
+			id: "57D39824F1A087C4"
+			tasks: [{
+				id: "1581DDDEAA296E12"
+				type: "item"
+				item: "tinkersarchery:cobalt_tantalum_ingot"
+			}]
+			rewards: [{
+				id: "70326F660B3246B1"
+				type: "random"
+				table_id: 4437548192905018486L
+			}]
+		}
+		{
+			x: 20.5d
+			y: -7.0d
+			dependencies: ["274334F09E53F4D1"]
+			id: "10848580BFAC1042"
+			tasks: [{
+				id: "12B4B33820CCAED9"
+				type: "item"
+				item: "tconstruct:cobalt_ingot"
+			}]
+			rewards: [{
+				id: "0388F019D63BDEFE"
+				type: "random"
+				table_id: 4437548192905018486L
+			}]
+		}
+		{
+			x: 23.5d
+			y: -7.0d
+			dependencies: [
+				"274334F09E53F4D1"
+				"75BD46C2C542A055"
+			]
+			id: "29B984F5CDAAC5CF"
+			tasks: [{
+				id: "451B462987D48734"
+				type: "item"
+				item: "tinkersarchery:galaxy_alloy_ingot"
+			}]
+			rewards: [{
+				id: "7FCDE52D5E7CBD7A"
+				type: "random"
+				table_id: 4437548192905018486L
+			}]
+		}
+		{
+			x: 22.0d
+			y: -5.0d
+			dependencies: ["274334F09E53F4D1"]
+			id: "75BD46C2C542A055"
+			tasks: [{
+				id: "5051686E25D388E0"
+				type: "item"
+				item: "tconstruct:blazing_blood_bucket"
+			}]
+		}
+	]
+}

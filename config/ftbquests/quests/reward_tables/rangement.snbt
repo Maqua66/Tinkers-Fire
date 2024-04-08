@@ -1,0 +1,24 @@
+{
+	id: "48315C2CB0C2609F"
+	order_index: 3
+	title: "rangement"
+	loot_size: 3
+	rewards: [
+		{ item: "unifyall:silver_ingot", weight: 2 }
+		{ item: "tconstruct:seared_bricks", weight: 4 }
+		{
+			item: {
+				id: "waystones:warp_stone"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 4
+		}
+		{ item: "minecraft:iron_ingot", weight: 4 }
+		{ item: "tconstruct:copper_ingot", weight: 4 }
+		{ item: "minecraft:gold_ingot" }
+		{ item: "kubejs:compressed_wood", weight: 4 }
+	]
+}

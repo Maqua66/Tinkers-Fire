@@ -1,0 +1,1113 @@
+{
+	id: "2799518A425744F5"
+	group: ""
+	order_index: 3
+	filename: "kubejs"
+	title: "KubeJS"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "5E1708300963FD6A"
+			tasks: [{
+				id: "17E0698F1CFAC58F"
+				type: "item"
+				item: "kubejs:misshapen_overworld_cluster"
+			}]
+			rewards: [{
+				id: "475202514A2D2342"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			id: "5B2DBE68825D1C55"
+			tasks: [{
+				id: "1D73331C32A36C63"
+				type: "item"
+				item: "kubejs:compressed_cobblestone"
+			}]
+			rewards: [{
+				id: "139C5CC0A52A6E8D"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			id: "27316DEAC25EB8CD"
+			tasks: [{
+				id: "132A68207393468D"
+				type: "item"
+				item: "kubejs:compressed_dirt"
+			}]
+			rewards: [{
+				id: "3B930B34570AE149"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			id: "1B24F62DE2A80F6E"
+			tasks: [{
+				id: "0CE39772F8D99A79"
+				type: "item"
+				item: "kubejs:compressed_wood"
+			}]
+			rewards: [{
+				id: "73BC1BB45584D9DA"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			dependencies: ["1B24F62DE2A80F6E"]
+			id: "18FF90F4377A9C42"
+			tasks: [{
+				id: "594017F0C84E7A3A"
+				type: "item"
+				item: "kubejs:double_compressed_wood"
+			}]
+			rewards: [{
+				id: "0E99990C1CC50D0E"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			dependencies: ["2EEC612859052463"]
+			id: "2AE74A34B197C5BE"
+			tasks: [{
+				id: "77A89676175F6652"
+				type: "item"
+				item: "kubejs:double_compressed_hyphae"
+			}]
+			rewards: [{
+				id: "20BD87A1DC4EFB0B"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			dependencies: ["27316DEAC25EB8CD"]
+			id: "5BD820AA90F14E7C"
+			tasks: [{
+				id: "3E9B4012814AB515"
+				type: "item"
+				item: "kubejs:double_compressed_dirt"
+			}]
+			rewards: [{
+				id: "22902CEA9E079061"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			dependencies: [
+				"5B2DBE68825D1C55"
+				"5E1708300963FD6A"
+			]
+			id: "6E6B6EC4D683E35F"
+			tasks: [{
+				id: "4FFFB4A13D67AC6C"
+				type: "item"
+				item: "kubejs:double_compressed_cobblestone"
+			}]
+			rewards: [{
+				id: "0C9EDB5B7DE9B9E8"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			dependencies: ["5E1708300963FD6A"]
+			id: "1BA5C1C99C31584D"
+			tasks: [{
+				id: "5B26C2864F85FBBE"
+				type: "item"
+				item: "kubejs:overworld_remains"
+			}]
+			rewards: [{
+				id: "30D89481E52C4D56"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: 0.5d
+			y: -4.5d
+			dependencies: [
+				"18FF90F4377A9C42"
+				"5BD820AA90F14E7C"
+				"6E6B6EC4D683E35F"
+				"1BA5C1C99C31584D"
+			]
+			id: "1C8D5208149CFF14"
+			tasks: [{
+				id: "522F4BB69093A708"
+				type: "item"
+				item: "kubejs:overworld_original_material"
+			}]
+			rewards: [{
+				id: "22F8B35B65A38938"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: 0.5d
+			y: -5.5d
+			dependencies: ["1C8D5208149CFF14"]
+			id: "61E5DE78B3A8B8B0"
+			tasks: [{
+				id: "1455C0D9F45EE18B"
+				type: "item"
+				item: "minecraft:blast_furnace"
+			}]
+			rewards: [{
+				id: "3EF2E02F186F28CF"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: 0.5d
+			y: -6.5d
+			dependencies: ["61E5DE78B3A8B8B0"]
+			id: "125AAA0A9415D053"
+			tasks: [{
+				id: "7083AAB53533AECB"
+				type: "item"
+				item: "kubejs:original_ore"
+			}]
+			rewards: [
+				{
+					id: "261AA9D56893EEAE"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "6227B93035D62B1B"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			shape: "diamond"
+			id: "57C00916EA64FB71"
+			tasks: [{
+				id: "7EC93353A21428C3"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [{
+				id: "322FFD6A8991C9C3"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			shape: "diamond"
+			id: "1D9C5A84D257A78C"
+			tasks: [{
+				id: "59C693F9C5221290"
+				type: "dimension"
+				dimension: "minecraft:the_end"
+			}]
+			rewards: [{
+				id: "6D9660FA3980900C"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			dependencies: ["57C00916EA64FB71"]
+			id: "2EEC612859052463"
+			tasks: [{
+				id: "13855A98047BF382"
+				type: "item"
+				item: "kubejs:compressed_hyphae"
+			}]
+			rewards: [{
+				id: "4A1A830FB6ECA840"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			dependencies: ["57C00916EA64FB71"]
+			id: "629D38734F3BE05C"
+			tasks: [{
+				id: "296C4DFB02918425"
+				type: "item"
+				item: "kubejs:compressed_soul_sand"
+			}]
+			rewards: [{
+				id: "7EAF6EBFA7E52153"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.5d
+			dependencies: ["629D38734F3BE05C"]
+			id: "3083DA9C20CF10D7"
+			tasks: [{
+				id: "04D2CF1A82DEFB62"
+				type: "item"
+				item: "kubejs:double_compressed_soul_sand"
+			}]
+			rewards: [{
+				id: "1FAD5A1D45C3533D"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			dependencies: ["57C00916EA64FB71"]
+			id: "77378F3890B2D9D5"
+			tasks: [{
+				id: "159B5B5D27284E17"
+				type: "item"
+				item: "kubejs:compressed_netherrack"
+			}]
+			rewards: [{
+				id: "0104391D1F34198E"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.5d
+			dependencies: ["77378F3890B2D9D5"]
+			id: "220D47F2C1CDE390"
+			tasks: [{
+				id: "65A045D570B97898"
+				type: "item"
+				item: "kubejs:double_compressed_netherrack"
+			}]
+			rewards: [{
+				id: "7F231E75021C965F"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 4.0d
+			dependencies: ["612084F6A119F1B1"]
+			id: "446C9F74B9B3B0C6"
+			tasks: [{
+				id: "6E7D5BE07FFD0C3E"
+				type: "item"
+				item: "kubejs:nether_original_ore"
+			}]
+			rewards: [
+				{
+					id: "77B70CE56872C34A"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "3927CAC54F2B6863"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 4.0d
+			dependencies: ["042C9BDB403B1CDB"]
+			id: "612084F6A119F1B1"
+			tasks: [{
+				id: "448E6B44DC19E096"
+				type: "item"
+				item: "minecraft:blast_furnace"
+			}]
+			rewards: [{
+				id: "27B0FF1D9CA5B252"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 4.0d
+			dependencies: [
+				"2AE74A34B197C5BE"
+				"3083DA9C20CF10D7"
+				"220D47F2C1CDE390"
+				"652499D50FFBD592"
+			]
+			id: "042C9BDB403B1CDB"
+			tasks: [{
+				id: "2445EE403942F68C"
+				type: "item"
+				item: "kubejs:nether_original_material"
+			}]
+			rewards: [{
+				id: "3CF09B2D4847C546"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.5d
+			dependencies: ["57C00916EA64FB71"]
+			id: "19ADD9F0EC84508E"
+			tasks: [{
+				id: "3AF9F7E0114B5294"
+				type: "item"
+				item: "kubejs:misshapen_nether_cluster"
+			}]
+			rewards: [{
+				id: "6513455BC0CE408B"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 5.5d
+			dependencies: ["19ADD9F0EC84508E"]
+			id: "652499D50FFBD592"
+			tasks: [{
+				id: "706D1A17774F88BC"
+				type: "item"
+				item: "kubejs:nether_remains"
+			}]
+			rewards: [{
+				id: "1C4E251EFF2CE660"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.5d
+			dependencies: ["1D9C5A84D257A78C"]
+			id: "5E684A28ABF339FC"
+			tasks: [{
+				id: "3644FD54EF4FCDE5"
+				type: "item"
+				item: "kubejs:compressed_end_stone"
+			}]
+			rewards: [{
+				id: "00351E75E532C81F"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.5d
+			dependencies: ["5E684A28ABF339FC"]
+			id: "5CF787E250288848"
+			tasks: [{
+				id: "0990912079E07C56"
+				type: "item"
+				item: "kubejs:double_compressed_end_stone"
+			}]
+			rewards: [{
+				id: "188E00DC194E5828"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.5d
+			dependencies: ["1D9C5A84D257A78C"]
+			id: "3C30A3650FF48F64"
+			tasks: [{
+				id: "09E32FF848C7C2B2"
+				type: "item"
+				item: "kubejs:compressed_obsidian"
+			}]
+			rewards: [{
+				id: "2CCFFF878720C39B"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.5d
+			dependencies: ["3C30A3650FF48F64"]
+			id: "0D23C3A779EFB56F"
+			tasks: [{
+				id: "0183ECC56A2849BA"
+				type: "item"
+				item: "kubejs:double_compressed_obsidian"
+			}]
+			rewards: [{
+				id: "56A8D31526E33FC4"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 4.5d
+			dependencies: ["1D9C5A84D257A78C"]
+			id: "30B7D5CB6A68E3DC"
+			tasks: [{
+				id: "72B10C49DF269D23"
+				type: "item"
+				item: "kubejs:compressed_slime_block"
+			}]
+			rewards: [{
+				id: "3CA168EA78CB6355"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.5d
+			dependencies: ["1D9C5A84D257A78C"]
+			id: "3311268547647487"
+			tasks: [{
+				id: "28A915AD36748390"
+				type: "item"
+				item: "kubejs:misshapen_end_cluster"
+			}]
+			rewards: [{
+				id: "072F6E58555E6215"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.5d
+			dependencies: ["3311268547647487"]
+			id: "5E7BD065CC14E87F"
+			tasks: [{
+				id: "74E1EF0D6F6BF54F"
+				type: "item"
+				item: "kubejs:end_remains"
+			}]
+			rewards: [{
+				id: "4C3AE20005E5F9AB"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 4.0d
+			dependencies: [
+				"5CF787E250288848"
+				"0D23C3A779EFB56F"
+				"30B7D5CB6A68E3DC"
+				"5E7BD065CC14E87F"
+			]
+			id: "4F464119129DC99B"
+			tasks: [{
+				id: "0C34FAE2F5672EE3"
+				type: "item"
+				item: "kubejs:end_original_material"
+			}]
+			rewards: [{
+				id: "5C17FFD86B243893"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 4.0d
+			dependencies: ["4F464119129DC99B"]
+			id: "6E46025B0E1727B4"
+			tasks: [{
+				id: "77155F3B802B50AF"
+				type: "item"
+				item: "minecraft:blast_furnace"
+			}]
+			rewards: [{
+				id: "1D5962A48FC6E944"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: -6.5d
+			y: 4.0d
+			dependencies: ["6E46025B0E1727B4"]
+			id: "2346794495A4D53D"
+			tasks: [{
+				id: "6E88E6A6AD23BA67"
+				type: "item"
+				item: "kubejs:from_beyond_original_ore"
+			}]
+			rewards: [
+				{
+					id: "19F92D0511920587"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "4301396A7154A2BE"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 6.5d
+			dependencies: [
+				"1C8D5208149CFF14"
+				"4F464119129DC99B"
+				"042C9BDB403B1CDB"
+			]
+			id: "06708DEA35E4E75C"
+			tasks: [{
+				id: "44D6146C62A10D42"
+				type: "item"
+				item: "kubejs:interdimensional_original_material"
+			}]
+			rewards: [
+				{
+					id: "1E939F90003283F8"
+					type: "random"
+					table_id: 5202040391603478687L
+				}
+				{
+					id: "74C9761DD516A3B6"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 7.5d
+			dependencies: ["06708DEA35E4E75C"]
+			id: "5A3396FECA5BCA5E"
+			tasks: [{
+				id: "140E1470FBCD28C1"
+				type: "item"
+				item: "minecraft:blast_furnace"
+			}]
+			rewards: [{
+				id: "4D4BE315A3729888"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 8.5d
+			dependencies: ["5A3396FECA5BCA5E"]
+			id: "36B5C8CCBCAC82C9"
+			tasks: [{
+				id: "6DE83E0B8CBAA956"
+				type: "item"
+				item: "kubejs:universal_original_ore"
+			}]
+			rewards: [{
+				id: "4A1DB4C4BE627F84"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: -8.0d
+			y: 3.0d
+			dependencies: ["2346794495A4D53D"]
+			id: "283E633B389994E8"
+			tasks: [{
+				id: "26F3412BEAB8559D"
+				type: "item"
+				item: "kubejs:original_end_prosperity"
+			}]
+			rewards: [{
+				id: "4EA248659C5D9953"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: -8.0d
+			y: 4.0d
+			dependencies: ["2346794495A4D53D"]
+			id: "07C64600F8EDAF98"
+			tasks: [{
+				id: "53903D25BE8257BC"
+				type: "item"
+				item: "kubejs:original_end_inferium"
+			}]
+			rewards: [{
+				id: "207825459A9FE6B3"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: -8.0d
+			y: 5.0d
+			dependencies: ["2346794495A4D53D"]
+			id: "6ADA0A096292EA30"
+			tasks: [{
+				id: "1333589F8FE53FE9"
+				type: "item"
+				item: "kubejs:original_biotite"
+			}]
+			rewards: [{
+				id: "6D61CFCD185CD417"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 1.5d
+			dependencies: ["446C9F74B9B3B0C6"]
+			id: "0EA49627F198AB13"
+			tasks: [{
+				id: "024A5525B338CADA"
+				type: "item"
+				item: "kubejs:original_nether_prosperity"
+			}]
+			rewards: [{
+				id: "33994169A66C7931"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 2.5d
+			dependencies: ["446C9F74B9B3B0C6"]
+			id: "4DBD927C4D36EDA0"
+			tasks: [{
+				id: "47D396B0433B0C35"
+				type: "item"
+				item: "kubejs:original_nether_inferium"
+			}]
+			rewards: [{
+				id: "78FA76A02B85C504"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 3.5d
+			dependencies: ["446C9F74B9B3B0C6"]
+			id: "687791C2977AE6D8"
+			tasks: [{
+				id: "65ECA3F7FBB0720F"
+				type: "item"
+				item: "kubejs:original_cobalt"
+			}]
+			rewards: [{
+				id: "285B76F61268722B"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 4.5d
+			dependencies: ["446C9F74B9B3B0C6"]
+			id: "366D89AE9AE1D0D3"
+			tasks: [{
+				id: "44B17B5C8EA0346A"
+				type: "item"
+				item: "kubejs:original_soulium"
+			}]
+			rewards: [{
+				id: "351AB254E743C5F1"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 5.5d
+			dependencies: ["446C9F74B9B3B0C6"]
+			id: "1BEED8CC869F34B0"
+			tasks: [{
+				id: "20FD8DF8D818E094"
+				type: "item"
+				item: "kubejs:original_quartz"
+			}]
+			rewards: [{
+				id: "086E62312E29E9D7"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 6.5d
+			dependencies: ["446C9F74B9B3B0C6"]
+			id: "699C894B12F58FA9"
+			tasks: [{
+				id: "10D455C1DF656B13"
+				type: "item"
+				item: "kubejs:original_ancient_debris"
+			}]
+			rewards: [{
+				id: "4B03D9D2208E4600"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: -9.0d
+			y: -8.0d
+			dependencies: ["125AAA0A9415D053"]
+			id: "61AB8287ACD0E601"
+			tasks: [{
+				id: "6ED7B16365C9F44E"
+				type: "item"
+				item: "kubejs:original_coal"
+			}]
+			rewards: [{
+				id: "18BF17B6BB893DF9"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: -8.0d
+			y: -8.0d
+			dependencies: ["125AAA0A9415D053"]
+			id: "624243D9DA2B6079"
+			tasks: [{
+				id: "08F55E27D0675405"
+				type: "item"
+				item: "kubejs:original_iron"
+			}]
+			rewards: [{
+				id: "2CA8423EDD223D3A"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: -7.0d
+			y: -8.0d
+			dependencies: ["125AAA0A9415D053"]
+			id: "4C4EF875C8E632F8"
+			tasks: [{
+				id: "0EECC5CAE989FF4C"
+				type: "item"
+				item: "kubejs:original_redstone"
+			}]
+			rewards: [{
+				id: "3C1BD62EDBF9F41A"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -8.0d
+			dependencies: ["125AAA0A9415D053"]
+			id: "10256DDD4DAD0936"
+			tasks: [{
+				id: "461B514E7FB60228"
+				type: "item"
+				item: "kubejs:original_lapis"
+			}]
+			rewards: [{
+				id: "218529D19245C5CC"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: -5.0d
+			y: -8.0d
+			dependencies: ["125AAA0A9415D053"]
+			id: "00C431EC55C00937"
+			tasks: [{
+				id: "114B145A8A205EB5"
+				type: "item"
+				item: "kubejs:original_emerald"
+			}]
+			rewards: [{
+				id: "1C08159C3046BFD6"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -8.0d
+			dependencies: ["125AAA0A9415D053"]
+			id: "41584D4D9A2C8D68"
+			tasks: [{
+				id: "2AE699FFD94E9C32"
+				type: "item"
+				item: "kubejs:original_diamond"
+			}]
+			rewards: [{
+				id: "6D0448AA5C724706"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -8.0d
+			dependencies: ["125AAA0A9415D053"]
+			id: "1A4A49C98C46F9B7"
+			tasks: [{
+				id: "4E979443DECAAECC"
+				type: "item"
+				item: "kubejs:original_aluminium"
+			}]
+			rewards: [{
+				id: "69ECC6DF5FFCE0A0"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -8.0d
+			dependencies: ["125AAA0A9415D053"]
+			id: "64F841AB6047052A"
+			tasks: [{
+				id: "27137C72496E8117"
+				type: "item"
+				item: "kubejs:original_inferium"
+			}]
+			rewards: [{
+				id: "4394AD9DC33B15C1"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -8.0d
+			dependencies: ["125AAA0A9415D053"]
+			id: "693151C524ABFFE1"
+			tasks: [{
+				id: "459E19428DAB6965"
+				type: "item"
+				item: "kubejs:original_lead"
+			}]
+			rewards: [{
+				id: "6268E61BC99327BD"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -8.0d
+			dependencies: ["125AAA0A9415D053"]
+			id: "76ABD35FF314D81A"
+			tasks: [{
+				id: "34543CC452BCDFA5"
+				type: "item"
+				item: "kubejs:original_nickel"
+			}]
+			rewards: [{
+				id: "479C0C11044FDB0B"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -8.0d
+			dependencies: ["125AAA0A9415D053"]
+			id: "440CAC7B9C76EE3C"
+			tasks: [{
+				id: "23390B554B810CC0"
+				type: "item"
+				item: "kubejs:original_osmium"
+			}]
+			rewards: [{
+				id: "532BEAE84F6CEEC1"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -8.0d
+			dependencies: ["125AAA0A9415D053"]
+			id: "537D686A54D63E22"
+			tasks: [{
+				id: "5C5C582523640768"
+				type: "item"
+				item: "kubejs:original_platinum"
+			}]
+			rewards: [{
+				id: "5E0565EFDEBD0A1C"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -8.0d
+			dependencies: ["125AAA0A9415D053"]
+			id: "7006BC2E66071CA3"
+			tasks: [{
+				id: "48D53469872A7C8F"
+				type: "item"
+				item: "kubejs:original_silver"
+			}]
+			rewards: [{
+				id: "0350253CC7CFF8D7"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -8.0d
+			dependencies: ["125AAA0A9415D053"]
+			id: "61D4744E37113857"
+			tasks: [{
+				id: "5104B4D1C0921A04"
+				type: "item"
+				item: "kubejs:original_tin"
+			}]
+			rewards: [{
+				id: "36B39889ACE708E5"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -8.0d
+			dependencies: ["125AAA0A9415D053"]
+			id: "714DC8F105CA3774"
+			tasks: [{
+				id: "430E34C9C7D7DADE"
+				type: "item"
+				item: "kubejs:original_titanium"
+			}]
+			rewards: [{
+				id: "4ED4D31CFCBAC899"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -8.0d
+			dependencies: ["125AAA0A9415D053"]
+			id: "30B49F2A82CAA245"
+			tasks: [{
+				id: "0999420685FE3F38"
+				type: "item"
+				item: "kubejs:original_tungsten"
+			}]
+			rewards: [{
+				id: "6B098EA18FB1419C"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: 7.0d
+			y: -8.0d
+			dependencies: ["125AAA0A9415D053"]
+			id: "75A8FC8145BE5A9F"
+			tasks: [{
+				id: "6659542B49B9B63C"
+				type: "item"
+				item: "kubejs:original_zinc"
+			}]
+			rewards: [{
+				id: "4FF6457F3A7CCED4"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -8.0d
+			dependencies: ["125AAA0A9415D053"]
+			id: "78FF48A3AC064320"
+			tasks: [{
+				id: "5441669B0417B42E"
+				type: "item"
+				item: "kubejs:original_tantalum"
+			}]
+			rewards: [{
+				id: "25D17F8D0AFB6EA3"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -8.0d
+			dependencies: ["125AAA0A9415D053"]
+			id: "4880CE8C3205A84B"
+			tasks: [{
+				id: "3B0E3FBCF0DD794D"
+				type: "item"
+				item: "kubejs:original_prosperity"
+			}]
+			rewards: [{
+				id: "6BB6E1494AD404E5"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: 10.0d
+			y: -8.0d
+			dependencies: ["125AAA0A9415D053"]
+			id: "2D9BB5A179F59812"
+			tasks: [{
+				id: "2E44D88218F28CFC"
+				type: "item"
+				item: "kubejs:original_copper"
+			}]
+			rewards: [{
+				id: "3680D298A2DEB91E"
+				type: "random"
+				table_id: 5202040391603478687L
+			}]
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	id: "6026A4F170E45F0C"
+	order_index: 0
+	title: "Classic"
+	loot_size: 3
+	rewards: [
+		{
+			xp: 100
+			type: "xp"
+			weight: 64
+		}
+		{ item: "mysticalagriculture:inferium_ingot", count: 9, weight: 64 }
+		{ item: "kubejs:compressed_wood", count: 9, weight: 64 }
+		{ item: "minecraft:iron_ingot", count: 9, weight: 64 }
+		{ item: "minecraft:gold_ingot", count: 9, weight: 64 }
+		{ item: "unifyall:silver_ingot", count: 9, weight: 64 }
+		{ item: "tconstruct:seared_brick", count: 18, weight: 64 }
+		{ item: "minecraft:netherite_ingot", count: 9, weight: 16 }
+		{ item: "minecraft:diamond", count: 9, weight: 20 }
+		{ item: "minecraft:emerald", count: 9, weight: 25 }
+		{ item: "kubejs:universal_original_ore", count: 9, weight: 8 }
+		{ item: "ironchest:wood_to_iron_chest_upgrade", count: 9, weight: 64 }
+		{
+			item: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "upgrades"
+				}
+			}
+			count: 9
+			weight: 12
+		}
+		{
+			xp_levels: 5
+			type: "xp_levels"
+			weight: 32
+		}
+		{ item: "enderstorage:ender_chest", count: 9, weight: 16 }
+		{ item: "kubejs:overworld_remains", count: 9, weight: 64 }
+		{ item: "tconstruct:copper_ingot", count: 9, random_bonus: 2, weight: 64 }
+	]
+}

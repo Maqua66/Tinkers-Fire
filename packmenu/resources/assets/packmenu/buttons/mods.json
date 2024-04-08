@@ -1,0 +1,10 @@
+{
+	"x": -110,
+	"y": 48,
+	"width": 98,
+	"height": 20,
+	"langKey": "fml.menu.mods",
+	"texture": "packmenu:textures/gui/widgets_blue_lava.png",
+	"action": "OPEN_GUI",
+	"data": "MODS"
+}

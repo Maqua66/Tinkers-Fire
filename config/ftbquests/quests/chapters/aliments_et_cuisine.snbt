@@ -1,0 +1,472 @@
+{
+	id: "441E42B0B875E21F"
+	group: ""
+	order_index: 4
+	filename: "aliments_et_cuisine"
+	title: "Aliments et Cuisine"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "3D933F26BAA9BD53"
+			tasks: [{
+				id: "354271F5D0E3711E"
+				type: "advancement"
+				advancement: "farmersdelight:main/root"
+				criterion: ""
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			dependencies: ["3D933F26BAA9BD53"]
+			id: "0B6FC1CBF7B144B8"
+			tasks: [{
+				id: "29632C6B98370E0F"
+				type: "advancement"
+				advancement: "farmersdelight:main/place_campfire"
+				criterion: ""
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["3D933F26BAA9BD53"]
+			id: "2C6F83364547C93B"
+			tasks: [{
+				id: "0718DA01E6D6FE2F"
+				type: "advancement"
+				advancement: "farmersdelight:main/get_fd_seed"
+				criterion: ""
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			dependencies: ["3D933F26BAA9BD53"]
+			id: "06A7551151FA2FCA"
+			tasks: [{
+				id: "49005EF4720B79DA"
+				type: "advancement"
+				advancement: "farmersdelight:main/craft_knife"
+				criterion: ""
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.5d
+			dependencies: ["0B6FC1CBF7B144B8"]
+			id: "7F94C09E47F82C8E"
+			tasks: [{
+				id: "095B196685A9A471"
+				type: "advancement"
+				advancement: "farmersdelight:main/use_skillet"
+				criterion: ""
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.5d
+			dependencies: ["7F94C09E47F82C8E"]
+			id: "2D53D676F956F821"
+			tasks: [{
+				id: "1DFEC1B77F7D41F8"
+				type: "advancement"
+				advancement: "farmersdelight:main/place_skillet"
+				criterion: ""
+			}]
+		}
+		{
+			x: -3.0d
+			y: -0.5d
+			dependencies: ["0B6FC1CBF7B144B8"]
+			id: "37BD7A5BC913CAF8"
+			tasks: [{
+				id: "0A40581B273ABC2C"
+				type: "advancement"
+				advancement: "farmersdelight:main/place_cooking_pot"
+				criterion: ""
+			}]
+		}
+		{
+			x: -4.0d
+			y: -0.5d
+			dependencies: ["37BD7A5BC913CAF8"]
+			id: "7971A127AA0A9989"
+			tasks: [{
+				id: "660E724838082B53"
+				type: "advancement"
+				advancement: "farmersdelight:main/eat_comfort_food"
+				criterion: ""
+			}]
+		}
+		{
+			x: -5.0d
+			y: -0.5d
+			dependencies: ["7971A127AA0A9989"]
+			id: "2B7A2BACEECB551B"
+			tasks: [{
+				id: "73F87EA8DD70DBC7"
+				type: "advancement"
+				advancement: "farmersdelight:main/eat_nourishing_food"
+				criterion: ""
+			}]
+		}
+		{
+			x: -6.0d
+			y: -0.5d
+			dependencies: ["2B7A2BACEECB551B"]
+			id: "4E48D223E712A4C1"
+			tasks: [{
+				id: "4D59CCAD6FD98D1E"
+				type: "advancement"
+				advancement: "farmersdelight:main/place_feast"
+				criterion: ""
+			}]
+		}
+		{
+			x: -7.0d
+			y: -0.5d
+			dependencies: ["4E48D223E712A4C1"]
+			id: "3B097369D24F8CF6"
+			tasks: [{
+				id: "57680D365A7C86E8"
+				type: "advancement"
+				advancement: "farmersdelight:main/master_chef"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "447CCAABBAE64FA0"
+				type: "item"
+				item: "nethers_delight:roast_hoglin_snout"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -0.5d
+			dependencies: ["06A7551151FA2FCA"]
+			id: "3616B0BA78489DC0"
+			tasks: [{
+				id: "3670D773FA9CAD07"
+				type: "advancement"
+				advancement: "farmersdelight:main/get_ham"
+				criterion: ""
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			dependencies: ["06A7551151FA2FCA"]
+			id: "6472E65E1E49BECE"
+			tasks: [{
+				id: "228589EB246817E7"
+				type: "advancement"
+				advancement: "farmersdelight:main/use_cutting_board"
+				criterion: ""
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			dependencies: ["6472E65E1E49BECE"]
+			id: "4E1FEC5B38114EFD"
+			tasks: [{
+				id: "3F31B9D8A8686A22"
+				type: "advancement"
+				advancement: "farmersdelight:main/obtain_netherite_knife"
+				criterion: ""
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.5d
+			dependencies: ["06A7551151FA2FCA"]
+			id: "23E3780EA23B8EE4"
+			tasks: [{
+				id: "77EE71239EDCF06E"
+				type: "advancement"
+				advancement: "farmersdelight:main/harvest_straw"
+				criterion: ""
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.5d
+			dependencies: ["23E3780EA23B8EE4"]
+			id: "47C64EA303EB1362"
+			tasks: [{
+				id: "237C332124443900"
+				type: "advancement"
+				advancement: "farmersdelight:main/place_organic_compost"
+				criterion: ""
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.5d
+			dependencies: ["47C64EA303EB1362"]
+			id: "1467EAF7C8CF90BD"
+			tasks: [{
+				id: "3C018A51BC6EE98C"
+				type: "advancement"
+				advancement: "farmersdelight:main/get_rich_soil"
+				criterion: ""
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			dependencies: ["2C6F83364547C93B"]
+			id: "6733E51ED6AFB982"
+			tasks: [{
+				id: "2AD6F5C9A9119EA8"
+				type: "advancement"
+				advancement: "farmersdelight:main/get_mushroom_colony"
+				criterion: ""
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["2C6F83364547C93B"]
+			id: "4D7328D2AE1ACCC3"
+			tasks: [{
+				id: "4B9C9B62F9810FD8"
+				type: "advancement"
+				advancement: "farmersdelight:main/plant_rice"
+				criterion: ""
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			dependencies: ["4D7328D2AE1ACCC3"]
+			id: "373A24F56293EED5"
+			tasks: [{
+				id: "0B1D4FE06ED1AFA5"
+				type: "advancement"
+				advancement: "farmersdelight:main/plant_all_crops"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "406BEB9F33A26241"
+				type: "choice"
+				table_id: 6928406433644175116L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			dependencies: ["2C6F83364547C93B"]
+			id: "3A895804C594E13D"
+			tasks: [{
+				id: "13BA600C4045CB92"
+				type: "advancement"
+				advancement: "farmersdelight:main/hit_raider_with_rotten_tomato"
+				criterion: ""
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.0d
+			shape: "diamond"
+			id: "4DCE978661494867"
+			tasks: [{
+				id: "527F6E40E478FF03"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.0d
+			shape: "diamond"
+			id: "46154F6529EFF3F6"
+			tasks: [{
+				id: "1B6992520D526C9A"
+				type: "dimension"
+				dimension: "minecraft:the_end"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.0d
+			shape: "circle"
+			dependencies: ["4DCE978661494867"]
+			id: "0147AA0365389E56"
+			tasks: [{
+				id: "17E418ECEAB7DABB"
+				type: "item"
+				item: "nethers_delight:nether_skewer"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 5.0d
+			shape: "circle"
+			dependencies: ["0147AA0365389E56"]
+			id: "3860004F288805E3"
+			tasks: [{
+				id: "626A598D07E5AA17"
+				type: "item"
+				item: "nethers_delight:hoglin_sirloin"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.0d
+			shape: "circle"
+			dependencies: ["3860004F288805E3"]
+			id: "5701F8A29D2E4E9D"
+			tasks: [{
+				id: "4C43FEBC137C1A47"
+				type: "item"
+				item: "nethers_delight:grilled_strider"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 5.0d
+			shape: "circle"
+			dependencies: ["5701F8A29D2E4E9D"]
+			id: "15980741B125AC7E"
+			tasks: [{
+				id: "5F10515061960CFA"
+				type: "item"
+				item: "nethers_delight:roast_hoglin_snout"
+			}]
+			rewards: [{
+				id: "1799EA5BF984FC0A"
+				type: "choice"
+				table_id: 4437548192905018486L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 6.0d
+			dependencies: ["46154F6529EFF3F6"]
+			id: "6F304384387EB278"
+			tasks: [{
+				id: "4A671CD266679645"
+				type: "advancement"
+				advancement: "ends_delight:root"
+				criterion: ""
+			}]
+		}
+		{
+			x: -4.5d
+			y: 3.5d
+			dependencies: ["6F304384387EB278"]
+			id: "7BB76079D6166A45"
+			tasks: [{
+				id: "6F8A6A4A671EDF10"
+				type: "advancement"
+				advancement: "ends_delight:the_end_chef"
+				criterion: ""
+			}]
+		}
+		{
+			x: -4.5d
+			y: 8.0d
+			dependencies: ["6F304384387EB278"]
+			id: "744667E6B0F1E771"
+			tasks: [{
+				id: "52720E2EBC74482E"
+				type: "advancement"
+				advancement: "ends_delight:get_non_hatchable_dragon_egg"
+				criterion: ""
+			}]
+		}
+		{
+			x: -4.5d
+			y: 10.5d
+			dependencies: ["6F304384387EB278"]
+			id: "7874FD983BDA90E4"
+			tasks: [{
+				id: "791132F952CA3E33"
+				type: "advancement"
+				advancement: "ends_delight:get_knife"
+				criterion: ""
+			}]
+		}
+		{
+			x: -5.5d
+			y: 10.5d
+			dependencies: ["7874FD983BDA90E4"]
+			id: "5954871CEE34DCAE"
+			tasks: [{
+				id: "7D47BAEA05AAEFC4"
+				type: "advancement"
+				advancement: "ends_delight:get_dragon_egg_shell_knife"
+				criterion: ""
+			}]
+		}
+		{
+			x: -5.5d
+			y: 2.5d
+			dependencies: ["7BB76079D6166A45"]
+			id: "20E6E585EA4E7C6F"
+			tasks: [{
+				id: "18CD851D08BFF573"
+				type: "advancement"
+				advancement: "ends_delight:get_bubble_tea"
+				criterion: ""
+			}]
+		}
+		{
+			x: -5.5d
+			y: 3.5d
+			dependencies: ["7BB76079D6166A45"]
+			id: "386DAA1A2EAC4B65"
+			tasks: [{
+				id: "355A24645A2F3247"
+				type: "advancement"
+				advancement: "ends_delight:consume_stir_fried_shulker_meat"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "56B1914A7515B8BB"
+				type: "choice"
+				table_id: 5202040391603478687L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 4.5d
+			dependencies: ["7BB76079D6166A45"]
+			id: "2ED8B2EAD34051BE"
+			tasks: [{
+				id: "007107D31CF5F6B8"
+				type: "advancement"
+				advancement: "ends_delight:get_chorus_flower_tea"
+				criterion: ""
+			}]
+		}
+		{
+			x: -5.5d
+			y: 7.5d
+			dependencies: ["744667E6B0F1E771"]
+			id: "713BF2DA75B61C81"
+			tasks: [{
+				id: "651CF205AA870EBE"
+				type: "advancement"
+				advancement: "ends_delight:get_assorted_salad"
+				criterion: ""
+			}]
+		}
+		{
+			x: -5.5d
+			y: 8.5d
+			dependencies: ["744667E6B0F1E771"]
+			id: "4F24717B5BE1457D"
+			tasks: [{
+				id: "37BD509CB976E762"
+				type: "advancement"
+				advancement: "ends_delight:dragon_egg_shell_feast"
+				criterion: ""
+			}]
+		}
+	]
+}

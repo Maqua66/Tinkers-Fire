@@ -1,0 +1,2420 @@
+{
+	id: "7F5D639F5DB47825"
+	group: ""
+	order_index: 1
+	filename: "fantaisie_et_dcouverte"
+	title: "Fantaisie et Découverte"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 7.0d
+			id: "2EEDD34E1CDCCDC5"
+			tasks: [{
+				id: "5CEC39374C3BB61C"
+				type: "item"
+				item: "mysticalagriculture:inferium_essence"
+			}]
+			rewards: [
+				{
+					id: "0C61E2256ACB8ABF"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "75AC30FED782C05A"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "07FB1D9087D9B453"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			id: "592F681BC263E82B"
+			tasks: [{
+				id: "0760809A57D4AF3E"
+				type: "item"
+				item: "iceandfire:manuscript"
+			}]
+			rewards: [
+				{
+					id: "3E3AA0835630FF08"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "7889D7AACFB1BDE0"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "29077E94CA308AB3"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			shape: "square"
+			dependencies: ["592F681BC263E82B"]
+			id: "74ACE8673760502C"
+			tasks: [{
+				id: "599959A6AB09B671"
+				type: "item"
+				item: {
+					id: "iceandfire:bestiary"
+					Count: 1b
+					tag: {
+						Pages: [I;0]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5EF5E175E7D5CF1A"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "27266A1E5EF236DC"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "7A835AC7A8C00810"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 4.5d
+			dependencies: ["05C5B315138D5709"]
+			id: "0F0577782DCF7DF3"
+			tasks: [{
+				id: "6A573E9D00644428"
+				type: "item"
+				item: "potionsmaster:pestle"
+			}]
+			rewards: [
+				{
+					id: "6A8869DC0135DE0A"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "34E93BDF838FF199"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "7E27BAEA514CA31F"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			shape: "square"
+			id: "43AFA37ECB174822"
+			tasks: [{
+				id: "0F10808DF99A3BE6"
+				type: "advancement"
+				advancement: "betterdungeons:root"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "7DBF983FFFF4DB95"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "5414FD9C9D0AFAA5"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "64EDD3E71E9AE1BA"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -3.5d
+			shape: "square"
+			dependencies: ["43AFA37ECB174822"]
+			id: "68CAAF28447B78E2"
+			tasks: [{
+				id: "43F89686CFC2F0E6"
+				type: "advancement"
+				advancement: "betterdungeons:spider_dungeon"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "77B1016D35AB3A67"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "3CB834AB81B1BCA5"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "755F642E5A67635B"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "797FA9ED14A10133"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			shape: "square"
+			dependencies: ["43AFA37ECB174822"]
+			id: "1F03553944452D2D"
+			tasks: [{
+				id: "4B17E8CEF4649BCD"
+				type: "advancement"
+				advancement: "betterdungeons:small_dungeon"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "051D2B96AE2B66DC"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "482B154D922AAB00"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "21CF286E75A7971D"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "349B4A0E4358AF92"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			shape: "square"
+			dependencies: ["43AFA37ECB174822"]
+			id: "634E14CAD2E0B675"
+			tasks: [{
+				id: "3FF53B4AB6F89F46"
+				type: "advancement"
+				advancement: "betterdungeons:zombie_dungeon"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "68BAE87544E4ACF3"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "46D778397AB40C04"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "6E73C953BE3E2EB5"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "54D625923BAB99B5"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -0.5d
+			shape: "square"
+			dependencies: ["43AFA37ECB174822"]
+			id: "63EF584E15BCEC58"
+			tasks: [{
+				id: "631B3CC5DC210484"
+				type: "advancement"
+				advancement: "betterdungeons:all_dungeons"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "46B9ACC5380D3ED4"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "0A7FAF312E5D1497"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "5F819C527B7CFAA0"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "2C1AEDC9E100CE6A"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 0.5d
+			shape: "square"
+			dependencies: ["43AFA37ECB174822"]
+			id: "16EE12074A4C4A28"
+			tasks: [{
+				id: "713A464C4A31EA57"
+				type: "advancement"
+				advancement: "betterdungeons:skeleton_dungeon"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "33B42DED85D5EE2D"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "600B3BA5058452BA"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "3EEB5FDE669EE08E"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "30012EFC06F482E8"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			id: "05C5B315138D5709"
+			tasks: [{
+				id: "0EA93799EC6B1193"
+				type: "item"
+				item: "minecraft:brewing_stand"
+			}]
+			rewards: [
+				{
+					id: "2D5C4469CC5E2C04"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "3FD3E513EFCA790D"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "070BC6CB5BF220A4"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			dependencies: ["05C5B315138D5709"]
+			id: "21CAE4A6AAC844C9"
+			tasks: [{
+				id: "486FADB25EA30A67"
+				type: "item"
+				item: "potionsmaster:tile_mortar"
+			}]
+			rewards: [
+				{
+					id: "35C19701A14BECB9"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "23128E4FA8F624DB"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "5C10BDDE7DCB73C8"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 3.5d
+			dependencies: [
+				"21CAE4A6AAC844C9"
+				"0F0577782DCF7DF3"
+			]
+			id: "49C1ADFC01774A29"
+			tasks: [{
+				id: "26FA37CB70FD7C81"
+				type: "item"
+				item: "potionsmaster:charcoal_powder"
+			}]
+			rewards: [
+				{
+					id: "4DD002A98257DE4F"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "57C56587920BEB0D"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "32AE28863F65DCA0"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 3.5d
+			dependencies: ["49C1ADFC01774A29"]
+			id: "71B7D0BC08CBE62E"
+			tasks: [{
+				id: "03A478ECD50951FB"
+				type: "item"
+				item: "potionsmaster:calcinatedcoal_powder"
+			}]
+			rewards: [
+				{
+					id: "2E1DDEDDD9B94185"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "679F03E2A7B4F6CB"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "6EA35263F1241E6A"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 3.5d
+			dependencies: ["71B7D0BC08CBE62E"]
+			id: "4135F7D5CFC4563D"
+			tasks: [{
+				id: "2D0C5AB0AEFE8D04"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "potionsmaster:coal_sight"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3E3F57B371F9C77E"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "562D65F93D392A4D"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "2C8BA847397AF623"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "18A2548CCB4955EC"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -8.5d
+			shape: "square"
+			dependencies: ["74ACE8673760502C"]
+			id: "55BA89AF2670B67B"
+			tasks: [{
+				id: "3415B32333F1B2BC"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/tame_hippocampus"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "42B605CB5BCBD79C"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "291A7B00262AD525"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "709A71F834DE77B4"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -7.5d
+			shape: "square"
+			dependencies: ["74ACE8673760502C"]
+			id: "077646B34ABF4DBC"
+			tasks: [{
+				id: "05AA0F59A15AC474"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/kill_ghost"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "34E5F326696A98AC"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "639B8026F6714978"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "7FA166A938EBAD2B"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -6.5d
+			shape: "square"
+			dependencies: ["74ACE8673760502C"]
+			id: "666C58226BC3A4B1"
+			tasks: [{
+				id: "6A926C43B253D5A6"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/tame_amphithere"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "5CDFA3CDCF8A8D7A"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "19A071913BA52562"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "22B176453126D821"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -5.5d
+			shape: "square"
+			dependencies: ["74ACE8673760502C"]
+			id: "6EC04465BD1E081D"
+			tasks: [{
+				id: "76E00F0B676A9FFD"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/gorgon_head"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "21529EF822521CBF"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "705DCB83FA71A49C"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "303366BCAF5F12C1"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			shape: "square"
+			dependencies: ["74ACE8673760502C"]
+			id: "28B43A6C4AC232AD"
+			tasks: [{
+				id: "11AE59BED97F64A5"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/tame_hippogryph"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "44F2636B300BD964"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "13D3C34BB9667892"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "5BFB1CE43A986DE5"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			shape: "square"
+			dependencies: ["74ACE8673760502C"]
+			id: "76D5952939F10C2C"
+			tasks: [{
+				id: "5ABE3572F18CA7FD"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/kill_myrmex"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "2DF4E7FD30F6B35A"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "3D344AEF61600C45"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "34C8E3A600C3F7BC"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			shape: "square"
+			dependencies: ["76D5952939F10C2C"]
+			id: "7BE95F16ED16374A"
+			tasks: [{
+				id: "2654B5893C69D22D"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/myrmex_resin"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "6E46C479529E47B2"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "701D1E5205F4191B"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "1631424AA9BAEFE0"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "106ACDB8E8D617BC"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "70E7E7EBE8552A79"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "4FCB05D18DFDDC91"
+					type: "loot"
+					table_id: 4437548192905018486L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -2.5d
+			shape: "square"
+			dependencies: ["74ACE8673760502C"]
+			id: "1E80317A0C9C8B9B"
+			tasks: [{
+				id: "12CF56ACB207929C"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/kill_cyclops"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "612869A21DE95085"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "660691E516758EDE"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "533E0021026FCCA2"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			shape: "square"
+			dependencies: ["74ACE8673760502C"]
+			id: "12885EBF4A289553"
+			tasks: [{
+				id: "609F7FDEF449F4E0"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/kill_siren"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "57A6904F03BE3690"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "17E87160344CBA57"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "5EE98C887928EF2C"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			shape: "square"
+			dependencies: ["74ACE8673760502C"]
+			id: "05BBEDF520509809"
+			tasks: [{
+				id: "09039743FC2419ED"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/tame_pixie"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "30A6E6536F3C7BAC"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "4A39CD59D6449A83"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "55F79924615A20EF"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			shape: "square"
+			dependencies: ["05BBEDF520509809"]
+			id: "362A758E958DA44E"
+			tasks: [{
+				id: "5B9B5ECA7D5B3BD1"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/jar_pixie"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "0B66C45D8E033177"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "5B8A52C07B669658"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "76FA27F4F0729544"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "274AFFAA5C1DBA46"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "34C7FC54F778313C"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "4C178B2CFC237F44"
+					type: "loot"
+					table_id: 4437548192905018486L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			shape: "square"
+			dependencies: ["05BBEDF520509809"]
+			id: "404C9D2D754B4B80"
+			tasks: [{
+				id: "13159CF0D846D499"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/pixie_wand"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "406A2E729B61F5CA"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "42D4878857A42E8D"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "4ACF89EE687AA52C"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "6693C25B4A6F44BB"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "6DCFC24076B0B99A"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "7AB2754CE52D6472"
+					type: "loot"
+					table_id: 4437548192905018486L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			shape: "square"
+			dependencies: ["74ACE8673760502C"]
+			id: "46083D31074202F8"
+			tasks: [{
+				id: "1BC40FF3FDA63577"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/kill_deathworm"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "53AABF94F99CD322"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "79AE6DA3A37C75A4"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "1FB13ED16C29152D"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			shape: "square"
+			dependencies: ["46083D31074202F8"]
+			id: "6DA2436682E416F6"
+			tasks: [{
+				id: "3AD88E8004895F37"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/deathworm_egg"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "71555061B139E1BA"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "35D08F5577537AE9"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "275BBFC04556DA53"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "40116BEF9AB702D9"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "4709238CD9A39A60"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "5AA4E6E640FA022D"
+					type: "loot"
+					table_id: 4437548192905018486L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			shape: "square"
+			dependencies: ["74ACE8673760502C"]
+			id: "0E2F3E554E13344D"
+			tasks: [{
+				id: "53D5CFCEB0DADDFA"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/kill_hydra"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "23BE41D57135E451"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "19490C6A56C623B2"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "35D0424F1252671C"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			shape: "square"
+			dependencies: ["74ACE8673760502C"]
+			id: "6FDB25A0DC2099CE"
+			tasks: [{
+				id: "1F7B4A14C9DA23DE"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/lectern"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "4B8430D0796C37C3"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "1EE412C0FF0BA6F7"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "03236D68ABCDD166"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 8.5d
+			shape: "square"
+			dependencies: ["74ACE8673760502C"]
+			id: "7FE60DF5BB0C458A"
+			tasks: [{
+				id: "474412381573B409"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/kill_if_dragon"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "71C926A2E52DEF6D"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "75ADB864564E3F20"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "103189DD398201E9"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 8.5d
+			shape: "square"
+			dependencies: ["7FE60DF5BB0C458A"]
+			id: "23EEB98D62625D57"
+			tasks: [{
+				id: "262A7B4DBB257276"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/dragon_egg"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "67EAB1388EA4BAD7"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "40C41E4A34AD9BF6"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "70C619F17A766A01"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 5.0d
+			shape: "square"
+			dependencies: ["7FE60DF5BB0C458A"]
+			id: "151D0EC7588CAFBA"
+			tasks: [{
+				id: "3B24B1DA19D4A47F"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/dragon_forge_brick"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "6F536141CB82EF21"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "159662F100E94095"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "3128BF28445CEC32"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 12.5d
+			shape: "square"
+			dependencies: ["7FE60DF5BB0C458A"]
+			id: "48B270D2D5AA194A"
+			tasks: [{
+				id: "6CA9B13A6EB811D2"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/dragonbone_tool"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "78D47521D97C8EC0"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "49F5AAC0D7888672"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "693C30DB02F2A85A"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 13.0d
+			shape: "square"
+			dependencies: ["74ACE8673760502C"]
+			id: "61DE9428D074D2BF"
+			tasks: [{
+				id: "5BC961DFFAAFA7BD"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/rotten_egg"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "369978BB3FC71109"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "13E4C766E580F4DD"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "5C117C8EDDD69AD5"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 13.5d
+			shape: "square"
+			dependencies: ["61DE9428D074D2BF"]
+			id: "455B69CA4843E1B3"
+			tasks: [{
+				id: "7754EA6B952ED4FB"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/tame_cockatrice"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "0D4657E3267EC769"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "67B46ADB6C6BC69C"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "06C8FE17D62B7A8C"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 14.0d
+			shape: "square"
+			dependencies: ["74ACE8673760502C"]
+			id: "1206FE0574D82574"
+			tasks: [{
+				id: "1CEEC9528178D637"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/kill_troll"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "560BB1A3C899C300"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "01F23D624A5E49CE"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "7F23C3D54D5FB25B"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 15.0d
+			shape: "square"
+			dependencies: ["74ACE8673760502C"]
+			id: "33142AE85155F88C"
+			tasks: [{
+				id: "512AD8CB276C7B43"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/kill_sea_serpent"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "1CE67D95EC7ACDEB"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "531AA4101CCA44DB"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "3962DD3A9C940B55"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 15.5d
+			shape: "square"
+			dependencies: ["33142AE85155F88C"]
+			id: "13F6B02BB90C0587"
+			tasks: [{
+				id: "566C691BAC60B571"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/use_tide_trident"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "75CCEECF85404DAB"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "588C716C9CA29416"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "4796E5426B3C0E5B"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "62334CF1501AFCA7"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 16.0d
+			shape: "square"
+			dependencies: ["74ACE8673760502C"]
+			id: "730FCF0E1AAEE443"
+			tasks: [{
+				id: "1B6A2305847A1301"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/kill_stymphalian_bird"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "28971BF10DEED867"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "18CA02FCCA596739"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "3FFEAD369F4D929E"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 17.0d
+			shape: "square"
+			dependencies: ["730FCF0E1AAEE443"]
+			id: "1F755217E283F032"
+			tasks: [{
+				id: "685E2E9FEBB3E75E"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/stymphalian_arrow"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "62727F6C5E4DBE69"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "483B4E5BD8524A30"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "4E9367A45D905117"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "5353E32FB8C3C739"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 5.0d
+			shape: "square"
+			dependencies: ["151D0EC7588CAFBA"]
+			id: "3FB493226E4CA06E"
+			tasks: [{
+				id: "431015AC15817799"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/dragon_forge_core"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "769789A370C3B578"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "73E4C281A5F175B2"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "34E99FF558A6B801"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "21711FA57C55A8AD"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 5.0d
+			shape: "square"
+			dependencies: ["3FB493226E4CA06E"]
+			id: "7FB4C78D4DC220C0"
+			tasks: [{
+				id: "10FE1B7B565AA419"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/dragonsteel"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "620D32DC792803F8"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "06DAD8EA89983D1C"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "0852CEFC756D407E"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "63D63B470FACE753"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "0A3A26B82E254BDA"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "0F2F3084FA22CCD9"
+					type: "loot"
+					table_id: 4437548192905018486L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 5.0d
+			shape: "square"
+			dependencies: ["7FB4C78D4DC220C0"]
+			id: "668EE30E9FD15649"
+			tasks: [{
+				id: "39B188E6C29A593F"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/dragonsteel_weapon"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "129920B551703AF8"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "4898446BF340C352"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "78AE18690C850103"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "5A00BD6019F36988"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "090CAC2724236B80"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "64E53EADA52C2207"
+					type: "loot"
+					table_id: 4437548192905018486L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 12.5d
+			shape: "square"
+			dependencies: ["48B270D2D5AA194A"]
+			id: "5DA320CFDE78190B"
+			tasks: [{
+				id: "79CBE8C89E396497"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/dragonbone_flaming_sword"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "1A0DB1ACD4ED5619"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "60CF0B62C4979FD8"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "1EAF47C0B531B800"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "134FF16AC4C2895F"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "0DBB9CCB5D88A379"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "30E92060E37CD1E6"
+					type: "loot"
+					table_id: 4437548192905018486L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 6.5d
+			shape: "square"
+			dependencies: ["23EEB98D62625D57"]
+			id: "05E333A991958C5B"
+			tasks: [{
+				id: "486FA2AEEE40A46A"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/dragon_staff"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "7DEED5B440F5A3EB"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "28BD5E9CEBE9BCA2"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "761D7ACA1F08DFB5"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "195003AB934C365B"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "2C13ACF9D9037444"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "1FEB3ED10C7AFDE5"
+					type: "loot"
+					table_id: 4437548192905018486L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 7.5d
+			shape: "square"
+			dependencies: ["23EEB98D62625D57"]
+			id: "4FF2751D1DE6EF1D"
+			tasks: [{
+				id: "14F50963A24EE135"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/dragonarmor"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "58F73FCC7CFDA140"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "5F9F075146FF6951"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "4D57565E456CCE97"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "737C7698F8DB6A6F"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "621638360E216ED4"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "3F4CB8A91F7F44B2"
+					type: "loot"
+					table_id: 4437548192905018486L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 8.5d
+			shape: "square"
+			dependencies: ["23EEB98D62625D57"]
+			id: "6AED08636E35C2AC"
+			tasks: [{
+				id: "3E72877DE47502A0"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/dragon_meal"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "11C98ACC3F82C41C"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "2C7F64951AAF6F72"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "1932C3E3B93C4DE7"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "02F7C042496DF3B7"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "55DBC4B61661B5A2"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "2B5BA91B8CD528F4"
+					type: "loot"
+					table_id: 4437548192905018486L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 10.0d
+			shape: "square"
+			dependencies: ["23EEB98D62625D57"]
+			id: "075804DC873D8856"
+			tasks: [{
+				id: "0C1847804BC4F9F1"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/dragon_flute"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "3B3752D38CFCCF0F"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "0BD55E9961831786"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "6A0DBF1CAD905993"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "05543A85FA85D194"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "770C8336A88D3A76"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "11F8BCF4F29906A5"
+					type: "loot"
+					table_id: 4437548192905018486L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 11.0d
+			shape: "square"
+			dependencies: ["23EEB98D62625D57"]
+			id: "7EFB0E935077E38F"
+			tasks: [{
+				id: "2D7F0324EAED784E"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/dragon_horn"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "7918BDBCFA5E0F45"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "2A8CA973012AF2C9"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "4EA3E6A2B36DFB5F"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "42386904EB5215AA"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "4F539812BA611EC8"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "0BBAA6F72A498CB3"
+					type: "loot"
+					table_id: 4437548192905018486L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 10.0d
+			dependencies: [
+				"2EEDD34E1CDCCDC5"
+				"00CFCC2CC7F71688"
+			]
+			id: "13CF0BF86EBE08EE"
+			tasks: [{
+				id: "12030EBD816FC550"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:infusion_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "119ECCF552D1D182"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "46E304A9F5717594"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "1C4E839F2E7915A6"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 9.5d
+			dependencies: ["00CFCC2CC7F71688"]
+			id: "6DFC6496432020FF"
+			tasks: [{
+				id: "0A04DD4F7BB0FC43"
+				type: "item"
+				item: "mysticalagriculture:prosperity_ingot"
+			}]
+			rewards: [
+				{
+					id: "33D8163BC3E97C68"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "5DAF1C30B4ED941F"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "7920B3989EE2EDAC"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 10.5d
+			id: "00CFCC2CC7F71688"
+			tasks: [{
+				id: "5680F0F76E491C2B"
+				type: "item"
+				item: "mysticalagriculture:prosperity_shard"
+			}]
+			rewards: [
+				{
+					id: "1CA6029924362C98"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "47B7F11F38889EEB"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "0CAFC8850EC3F817"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 7.5d
+			dependencies: [
+				"2EEDD34E1CDCCDC5"
+				"00CFCC2CC7F71688"
+			]
+			id: "7E69872B9825E42E"
+			tasks: [{
+				id: "6DDE29E7A3C85CED"
+				type: "item"
+				item: "mysticalagriculture:infusion_altar"
+			}]
+			rewards: [
+				{
+					id: "5DEF24F37B19E781"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "67E945E955F9C5DE"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "5E82F7A759670F6F"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "555C1BF48BB61646"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 6.0d
+			dependencies: ["2EEDD34E1CDCCDC5"]
+			id: "34D8CD055BB21834"
+			tasks: [{
+				id: "173C79E447C71C8F"
+				type: "item"
+				item: "mysticalagradditions:inferium_coal"
+			}]
+			rewards: [
+				{
+					id: "034407EE92FB72DC"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "60639A35ABC45891"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "1955726D158409E6"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 8.0d
+			dependencies: ["2EEDD34E1CDCCDC5"]
+			id: "3239D4ADB39479BA"
+			tasks: [{
+				id: "53DA97F0A258ADC2"
+				type: "item"
+				item: "mysticalagradditions:inferium_apple"
+			}]
+			rewards: [
+				{
+					id: "504462DA45448CB4"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "7ECA798FB85863AE"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "41CAD253F99A2926"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 6.0d
+			dependencies: ["2EEDD34E1CDCCDC5"]
+			id: "5DDC34F6CA8850FE"
+			tasks: [{
+				id: "7CA50B8B53668151"
+				type: "item"
+				item: "mysticalagriculture:mystical_fertilizer"
+			}]
+			rewards: [
+				{
+					id: "6399557044D978E4"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "35287BAF9E2F3005"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "11574E403259BEC5"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 9.0d
+			dependencies: [
+				"2EEDD34E1CDCCDC5"
+				"454F735D5BF6118C"
+			]
+			id: "3BC913214896EB32"
+			tasks: [{
+				id: "5E4FBAA0BF7F7440"
+				type: "item"
+				item: "mysticalagriculture:inferium_gemstone"
+			}]
+			rewards: [
+				{
+					id: "6E1A10E3959769A3"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "787AA0DF3354D523"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "1E492E3C15AD7DFE"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 6.5d
+			dependencies: [
+				"2EEDD34E1CDCCDC5"
+				"6DFC6496432020FF"
+			]
+			id: "1BD34CBDC76DC48E"
+			tasks: [{
+				id: "4C6766D5FB9CEFA9"
+				type: "item"
+				item: "mysticalagriculture:inferium_ingot"
+			}]
+			rewards: [
+				{
+					id: "758BCB497079942E"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "31C779B7A69F422A"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "1C6C6D871DDEEAE1"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 5.0d
+			dependencies: ["1BD34CBDC76DC48E"]
+			id: "68208FED4FE43128"
+			tasks: [{
+				id: "2DD3019A0215B090"
+				type: "item"
+				item: "mysticalagriculture:inferium_furnace"
+			}]
+			rewards: [
+				{
+					id: "5FD85F1F6AFAA992"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "2297CFB6312820A0"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "77E356C649F77C18"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "1E80FCAF9DE1D3AB"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 6.5d
+			dependencies: [
+				"5DDC34F6CA8850FE"
+				"1BD34CBDC76DC48E"
+			]
+			id: "173DD007BDC7E006"
+			tasks: [{
+				id: "4D34F723199054A2"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:inferium_watering_can"
+					Count: 1b
+					tag: {
+						Water: 0b
+						Active: 0b
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6F202E31F308F6BA"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "69330AF71A333024"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "01B80D69EF75251C"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "3E35293644C3734C"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 8.0d
+			dependencies: ["2EEDD34E1CDCCDC5"]
+			id: "0C00B0B7485EA3C4"
+			tasks: [{
+				id: "6858960F2B6155C1"
+				type: "item"
+				item: "mysticalagriculture:inferium_seeds"
+			}]
+			rewards: [
+				{
+					id: "1DE48A304DD55BD1"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "2827171C3D163CB4"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "7DF9D9467C5D0341"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 10.5d
+			dependencies: ["00CFCC2CC7F71688"]
+			id: "454F735D5BF6118C"
+			tasks: [{
+				id: "78BD45FF2F5754F5"
+				type: "item"
+				item: "mysticalagriculture:prosperity_gemstone"
+			}]
+			rewards: [
+				{
+					id: "64F8471FEEBCB30C"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "6C294C890FB00C8F"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "21FA47EB8341B0EC"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 11.5d
+			dependencies: ["00CFCC2CC7F71688"]
+			id: "783DFD9DCA3B679D"
+			tasks: [{
+				id: "671F826D4536256F"
+				type: "item"
+				item: "mysticalagriculture:prosperity_seed_base"
+			}]
+			rewards: [
+				{
+					id: "4D789169F1C8572E"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "7B5110E81C3110E9"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "1003C877042EF5E7"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 11.5d
+			dependencies: [
+				"2EEDD34E1CDCCDC5"
+				"13CF0BF86EBE08EE"
+			]
+			id: "723CF60B5E9D95AE"
+			tasks: [{
+				id: "761BBB0C60B4ECB2"
+				type: "item"
+				item: "mysticalagriculture:prudentium_essence"
+			}]
+			rewards: [
+				{
+					id: "3BD959669C67E00D"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "3F6A89C7108DD810"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "029CE74C56B5928C"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "3EBE3B86C97E714A"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 7.0d
+			dependencies: ["2EEDD34E1CDCCDC5"]
+			id: "7E74E39CDB84484A"
+			tasks: [{
+				id: "06C5C8A04787CBD8"
+				type: "item"
+				item: "mysticalagriculture:inferium_farmland"
+			}]
+			rewards: [
+				{
+					id: "61C8DAD47A8AA638"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "15173DDB90288984"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "6A269D34BBED8A6A"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 11.5d
+			dependencies: ["723CF60B5E9D95AE"]
+			id: "2888A499C9A4239E"
+			tasks: [{
+				id: "4271444D3A6AEE0E"
+				type: "item"
+				item: "mysticalagriculture:tertium_essence"
+			}]
+			rewards: [
+				{
+					id: "154A3EB36A8AD0E0"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "032FCA2B80018366"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "53C4D38CF23775CD"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "240AF8A08952D71C"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 11.5d
+			dependencies: ["2888A499C9A4239E"]
+			id: "27663B4EC30F3D74"
+			tasks: [{
+				id: "674A7BFA31A2E686"
+				type: "item"
+				item: "mysticalagriculture:imperium_essence"
+			}]
+			rewards: [
+				{
+					id: "43E257C4EDDD9872"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "373EE54574DDE001"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "4C3AC24C2CBDC91B"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "23FDECA9D4EB7D46"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "62199196A8BE4FC3"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "1A0DD349F96EB2E3"
+					type: "loot"
+					table_id: 4437548192905018486L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 11.5d
+			dependencies: ["27663B4EC30F3D74"]
+			id: "6B4FC5AF59D6F5AB"
+			tasks: [{
+				id: "58EB8D3D954EE466"
+				type: "item"
+				item: "mysticalagriculture:supremium_essence"
+			}]
+			rewards: [
+				{
+					id: "0F516329A9E790A9"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "05D4331AFBAD7AC5"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "710035C6EA34BEA1"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "11A3CFE114C59B3D"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "54F58FC5A350C6CE"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "3BD6AB8B6571B6F6"
+					type: "loot"
+					table_id: 4437548192905018486L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 11.5d
+			dependencies: ["6B4FC5AF59D6F5AB"]
+			id: "736548EBD3705E32"
+			tasks: [{
+				id: "00F6D4538AF19ADE"
+				type: "item"
+				item: "mysticalagradditions:insanium_essence"
+			}]
+			rewards: [
+				{
+					id: "67A5D026B898F9FD"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "03AEB69513D08D97"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "5C361E9D8810AF11"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "594D4E59A575B3F6"
+					type: "random"
+					table_id: 6928406433644175116L
+				}
+				{
+					id: "1F71CFC03636C4D2"
+					type: "random"
+					table_id: 4437548192905018486L
+				}
+				{
+					id: "1FC6376252ACB302"
+					type: "loot"
+					table_id: 4437548192905018486L
+				}
+			]
+		}
+	]
+}
