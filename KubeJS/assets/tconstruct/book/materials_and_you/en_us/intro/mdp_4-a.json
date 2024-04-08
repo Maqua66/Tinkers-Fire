@@ -1,0 +1,13 @@
+{
+  "title": "Simplicité & Rangement, partie 1",
+  "text": [
+    {
+      "text": "Qui n’aime pas avoir des coffres bien rangés ? Cette partie est là pour faciliter ce rangement en ajoutant des coffres pouvant stocker plus d’items, en rajoutant des blocs pouvant contenir des milliers de bûches (Storage Drawers) en créant des boutants permettant de ranger automatiquement son inventaire (hotbar exclue) ainsi que ses coffres.",
+	  "paragraph": true
+    },
+    {
+      "text": "La partie S&R fait tout cela grâce à Iron Chest, Drawers, Quark, Quark Oddities, Ender Storage, Trash Cans, Item Filter et les blocs compressé rajoutés par moi-même via KubeJS qui permettent de faire prendre moins de place à vos dizains de stacks de cobble.",
+      "paragraph": true
+    }
+  ]
+}

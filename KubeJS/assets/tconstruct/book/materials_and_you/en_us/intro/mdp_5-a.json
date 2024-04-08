@@ -1,0 +1,13 @@
+{
+  "title": "Savoir, partie 1",
+  "text": [
+    {
+      "text": "Cette partie est là car en quelque clics on peut savoir comment obtenir tel item faut-il le crafter (si oui comment ?), le cuire, le miner, le faire passer par une machine rajoutée par un mod, l’avoir grâce à un loot ? ",
+	  "paragraph": true
+    },
+    {
+      "text": "Grace à JEI, JER, JEI Integration, JEA, Mode Name Tooltip et More Overlays vous pouvez obtenir toutes ces informations et bien plus encore ! ",
+      "paragraph": true
+    }
+  ]
+}

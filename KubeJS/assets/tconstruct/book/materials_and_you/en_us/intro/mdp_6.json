@@ -1,0 +1,13 @@
+{
+  "title": "Coopération et Interactivité",
+  "text": [
+    {
+      "text": "Les mods FTB (FTB backups, FTB chunks, FTB quests, FTB teams) et quick teleport. Sont là pour vous permettre de jouer en interagissant avec d’autres joueur vous voulez créer une faction, claim une zone ou faire bien d’autres choses ? Et bien, vous pouvez le faire. ",
+	  "paragraph": true
+    },
+    {
+      "text": "D’ailleurs vous pouvez utiliser la commande /tpa pour demander l’autorisation de vous téléporter à un joueur.",
+      "paragraph": true
+    }
+  ]
+}

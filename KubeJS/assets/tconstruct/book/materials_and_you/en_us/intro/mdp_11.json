@@ -1,0 +1,13 @@
+{
+  "title": "Customisation",
+  "text": [
+    {
+      "text": "La partie customisation est constituée de KubeJS et de Packmenu. KubeJS à par exemple permis de changer le rouge aveuglant du fond de Mojang par un noir reposant et la partie PackMenu a permis la customisation du menu du Modpack.",
+	  "paragraph": true
+    },
+    {
+      "text": "Dans la même veine Global Packs et World Edit me permettent de plus facilement customiser le modpack.",
+      "paragraph": true
+    }
+  ]
+}

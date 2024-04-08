@@ -1,0 +1,13 @@
+{
+  "title": "Tinkers’ Construct, partie 1",
+  "text": [
+    {
+      "text": "La partie Tinkers’ Construct du modpack est basé sur le mod éponyme et ses addons tels que Useful Slime, TC planner, Tinkers' Archery, Tinkers' Disasemble et Construct Armory.",
+	  "paragraph": true
+    },
+    {
+      "text": "J’ai fait mon maximum pour forcer les joueurs à utiliser TC en supprimant la possibilité de crafter toutes armures et outils d’un niveau supérieur, égal ou équivalent au fer n’étant pas ajoutés par TC, des addons de TC ou Ice & Fire. ",
+      "paragraph": true
+    }
+  ]
+}

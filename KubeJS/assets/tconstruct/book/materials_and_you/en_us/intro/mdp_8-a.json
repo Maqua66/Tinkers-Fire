@@ -1,0 +1,17 @@
+{
+  "title": "Unification et Rajouts Divers, partie 1",
+  "text": [
+    {
+      "text": "Avoir 45 lingots de cuivre différents dans votre coffre parce que vous jouer avec un peu trop de mods cela ne vous chauffe pas trop ? Pas grave parce que grâce à Unify, OreTweaker et kubeJS cela ne pose plus de problème.",
+	  "paragraph": true
+    },
+    {
+      "text": "Unify unifie automatiquement les minerais différents et kubeJS ainsi que OreTweaker me me permettent de le faire manuellement.",
+      "paragraph": true
+    },
+    {
+      "text": "D’ailleurs je vous invite à taper @kubejs sur JEI pour voir les blocs que j’ai rajoutés ils vous permettent notamment de passer moins de temps dans les mines en «dupliquant» les minerais même si cela n’est bien évidemment pas sans coûts.",
+      "paragraph": true
+    }
+  ]
+}
